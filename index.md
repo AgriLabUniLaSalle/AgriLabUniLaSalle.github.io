@@ -1,10 +1,4 @@
 ---
-layout: Programme
-title: Accueil
----
-
-# Calendrier
----
 layout: page
 title: Projet Robotique - 1er Semestre 2026
 ---
