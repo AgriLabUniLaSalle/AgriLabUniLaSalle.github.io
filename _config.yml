@@ -7,12 +7,11 @@ plugins:
   - jekyll-remote-theme
 
 navbar:
-  - title: Home
-    url: /index.md
-
-  - title: AgriTec1
-    url: /AgriTec/
-
   - title: Projets
-    url: /projets/
-
+    dropdown:
+      - title: AgriTEC 1
+        url: \AgriTec\AgriTEC1.md
+      - title: AgriTEC 2
+        url: \AgriTec\AgriTEC2.md
+      - title: AgriTEC 3
+        url: \AgriTec\AgriTEC3.md
