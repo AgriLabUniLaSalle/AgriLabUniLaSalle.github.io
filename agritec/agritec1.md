@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Projet Robotique - 1er Semestre 2026
+title: Module Prototypage - Projet Robotique
 ---
 
 # 1er Semestre 2026
