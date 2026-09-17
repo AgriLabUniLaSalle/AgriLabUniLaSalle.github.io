@@ -31,7 +31,7 @@ Présentation générale du projet final (conception d'un robot).
 
 ---
 
-## Vendredi 25 septembre · 13h30 à 16h30
+## Vendredi 25 septembre · 9h00 à 12h00
 
 ### Groupe 1 : Inkscape et dessin vectoriel
 
