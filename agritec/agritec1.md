@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Module Prototypage - Projet Robotique
+menubar_toc: true
+toc_title: INDEX
 ---
 
 # 1er Semestre 2026
