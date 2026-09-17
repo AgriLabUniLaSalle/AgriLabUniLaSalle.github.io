@@ -1,3 +1,20 @@
+# Site Settings
+lang: fr
+title: AgriLab UniLaSalle
+tagline: AgriLab UniLaSalle
+email: agrilab@unilasalle.fr
+description: >
+  Documentation Module prototypage AgriTEC
+baseurl: "/agrilabunilasalle.github.io"
+url: "https://agrilabunilasalle.github.io/"
+permalink: pretty
+favicon: /path/to/favicon.png
+hide_share_buttons: true
+theme_color: '#2e7d32'
+fixed_navbar: top
+#direction: one of <ltr, rtl, auto>, default: ltr
+force_theme: dark
+
 title: AgriLab UniLaSalle
 description: FabLab d'UniLaSalle
 
