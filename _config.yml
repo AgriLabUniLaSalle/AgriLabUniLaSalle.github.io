@@ -11,7 +11,7 @@ navbar:
     url: /index.md
 
   - title: AgriTec1
-    url: /AgriTec
+    url: /AgriTec/
 
   - title: Projets
     url: /projets/
