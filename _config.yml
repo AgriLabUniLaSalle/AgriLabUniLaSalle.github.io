@@ -15,9 +15,6 @@ fixed_navbar: top
 #direction: one of <ltr, rtl, auto>, default: ltr
 force_theme: dark
 
-title: AgriLab UniLaSalle
-description: FabLab d'UniLaSalle
-
 remote_theme: chrisrhymes/bulma-clean-theme@v0.14.0
 
 plugins:
