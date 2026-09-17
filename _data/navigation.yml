@@ -2,10 +2,10 @@
   link: /agritec/
   dropdown: 
     - name: AgriTEC 1
-      link: /agritec/agritec1/AgriTEC1.md
+      link: /agritec/agritec1/agritec1
 
     - name: AgriTEC 2
       link: /agritec/agritec1/AgriTEC2.md
-      
+
     - name: AgriTEC 3
       link: /agritec/agritec1/AgriTEC3.md
