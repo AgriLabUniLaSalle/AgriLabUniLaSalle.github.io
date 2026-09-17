@@ -1,5 +1,5 @@
 - name: AgriTec
-  link: /AgriTEC/
+  link: /agritec/
   dropdown: 
     - name: AgriTEC1
-      link: /agritec/AgriTEC1.md
+      link: /agritec/agritec1/
