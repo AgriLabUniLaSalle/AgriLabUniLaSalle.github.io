@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Module Prototypage
+menubar_toc: true
+toc_title: INDEX
 ---
 
 ## 1er Semestre : Dossier technique et conception avancée
