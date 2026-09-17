@@ -1,2 +1,2 @@
-# AgriLabUniLaSalle.github.io
+# AgriLab UniLaSalle
 AgriLab Github Pages
