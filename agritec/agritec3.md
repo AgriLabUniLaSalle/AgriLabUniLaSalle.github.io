@@ -15,8 +15,6 @@ toc_title: INDEX
 
 Définition des objectifs du module, discussion des projets individuels ou en groupe, clarification des attentes.
 
-- [[Organisation et planification]]
-
 ---
 
 ### Lundi 14 septembre 2026 · 13h30 à 16h30
@@ -25,8 +23,6 @@ Définition des objectifs du module, discussion des projets individuels ou en gr
 
 Ateliers de réflexion sur les besoins du projet, identification des contraintes techniques et contextuelles.
 
-- [[Cahier des charges]]
-
 ---
 
 ### Lundi 21 septembre 2026 · 9h00 à 12h00
@@ -34,8 +30,6 @@ Ateliers de réflexion sur les besoins du projet, identification des contraintes
 **Veille technologique et concurrentielle ciblée**
 
 Recherche avancée d'innovations technologiques et étude de la concurrence pour alimenter la conception.
-
-- [[Veille concurrentielle et technologique]]
 
 ---
 
