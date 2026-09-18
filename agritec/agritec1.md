@@ -4,6 +4,19 @@ title: Module Prototypage - Projet Robotique
 menubar_toc: true
 toc_title: INDEX
 ---
+# Cahier des charges :
+
+## Composants/robot :
+
+| Nom                      | Quantité | Datasheet |
+|--------------------------|----------|-----------|
+| Microbit V1              |  1        |    [Lien]()       |
+| Microbit Header Pimoroni |  1       |   [Lien]()         |
+| L298N                    |   1       |  [Lien]()          |
+| TT motor + roue          |   2       |   [Lien]()         |
+| Servo Moteur SG90          |   1       |  [Lien]()          |
+| Botier pile 3V (2x 1,5V)          |   1       |   [Lien]()         |
+| Botier Batterie 18650 11,1V (3x 3,7V)          |    1      |   [Lien]()         |
 
 # 1er Semestre 2026
 
