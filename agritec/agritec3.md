@@ -15,6 +15,8 @@ toc_title: INDEX
 
 Définition des objectifs du module, discussion des projets individuels ou en groupe, clarification des attentes.
 
+[Cours](https://github.com/AgriLabUniLaSalle/AgriLabUniLaSalle.github.io/blob/main/agritec/CoursGestionProjetWiki.pdf)
+
 ---
 
 ### Lundi 14 septembre 2026 · 13h30 à 16h30
