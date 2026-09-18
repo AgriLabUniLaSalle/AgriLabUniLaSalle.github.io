@@ -1,7 +1,7 @@
 title: AgriLab UniLaSalle
 description: FabLab d'UniLaSalle
 permalink: pretty
-
+  
 remote_theme: chrisrhymes/bulma-clean-theme@v0.14.0
 
 plugins:

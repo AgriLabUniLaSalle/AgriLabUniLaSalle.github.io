@@ -1,7 +1,22 @@
 ---
 layout: page
-title: Projet Robotique - 1er Semestre 2026
+title: Module Prototypage - Projet Robotique
+menubar_toc: true
+toc_title: INDEX
 ---
+# Cahier des charges :
+
+## Composants/robot :
+
+| Nom                      | Quantité | Datasheet | Modele 3D |
+|--------------------------|----------|-----------|-----------|
+| Microbit V1              |  1        |    [Lien](https://tech.microbit.org/hardware/1-3-revision/)       |[3D](https://a360.co/3SOPJve)|
+| Microbit Header Pimoroni |  1       |   [Lien]()         ||
+| L298N                    |   1       |  [Lien](https://passionelectronique.fr/tutoriel-l298n/)          |[3D](https://a360.co/4xyaV6K)|
+| TT motor + roue          |   2       |   [Lien](https://media.digikey.com/pdf/Data%20Sheets/Adafruit%20PDFs/3777_Web.pdf)         |[3D](https://a360.co/3SVZGae)|
+| Servo Moteur SG90          |   1       |  [Lien](https://www.datasheetcafe.com/wp-content/uploads/2015/12/SG90.pdf)          |[3D](https://a360.co/4y2c089)|
+| Botier pile 3V (2x 1,5V)          |   1       |   [Lien](https://microbit.org/buy/microbit-battery-pack/)         | [3D](https://a360.co/4y2c089)|
+| Botier Batterie 18650 11,1V (3x 3,7V)          |    1      |   [Lien]()         |[3D](https://a360.co/474vuNg)|
 
 # 1er Semestre 2026
 
@@ -29,7 +44,7 @@ Présentation générale du projet final (conception d'un robot).
 
 ---
 
-## Vendredi 25 septembre · 13h30 à 16h30
+## Vendredi 25 septembre · 9h00 à 12h00
 
 ### Groupe 1 : Inkscape et dessin vectoriel
 
