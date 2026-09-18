@@ -61,12 +61,13 @@ Introduction à Inkscape et découverte des bases du dessin vectoriel.
 
 **Ressources :**
 
-- [Atelier Inkscape](http://agrilab.unilasalle.fr/proiels/questions/17-atelier-2d-inkscape
-- [Télécharger Inkscape](https:// https://inkscape.org/gallery/=extension/
-- [ttps://inkscape.org/learn/tutorials/
+- [Atelier Inkscape](http://agrilab.unilasalle.fr/projets/projects/tutoriels/questions/17-atelier-2d-inkscape)
+- [Télécharger Inkscape](https://inkscape.org/release/)
+- [Extensions Inkscape](https://inkscape.org/gallery/=extension/)
+- [Tutoriels officiels](https://inkscape.org/learn/tutorials/)
 - [Halftone Generator](https://halftone.xoihazard.com/#google_vignette)
 - [The Noun Project](https://thenounproject.com/)
-- [Bibliothèque de modèles -bamberg.de/
+- [Bibliothèque de modèles laser](https://boxes.hackerspace-bamberg.de/)
 - [MakerCase - Générateur de boîtes](https://fr.makercase.com/#/basicbox)
 
 **Groupe 2 : AF - Cahier des charges et veille robot**
@@ -107,11 +108,12 @@ Introduction à Fusion 360.
 
 **Ressources :**
 
-- [Support de cours Fusion 360](https://www.gassendi.asso.fr/wpg/les-coursusion-360/
-- [Licence personnelle Autodesk](https://www.autodesk.fr/productstation officielle Fusion 360](https://help.autodesk.com/view/fusion360/ENU/courses/)
+- [Support de cours Fusion 360](https://www.gassendi.asso.fr/wpg/les-cours/fusion-360/support-de-cours-fusion-360/)
+- [Licence personnelle Autodesk](https://www.autodesk.fr/products/fusion-360/personal)
+- [Documentation officielle Fusion 360](https://help.autodesk.com/view/fusion360/ENU/courses/)
 - [GrabCAD](https://grabcad.com/library)
-- [Compte Éducation Autodesk](https://www.autodesk.fr/education/edu-atured&filters=individual
-- [ttps://a360.co/3YJNHtA
+- [Compte Éducation Autodesk](https://www.autodesk.fr/education/edu-software/overview?sorting=featured&filters=individual)
+- [Support moteur](https://a360.co/3YJNHtA)
 
 **Groupe 2 : AF - Création du logo d'équipe**
 
@@ -181,12 +183,12 @@ Même contenu que la séance du 20 novembre.
 
 **Ressources :**
 
-- [Atelier Impression 3D](http://agrilab.unilasalle.fr/projets/projects/impression-3d-atelier
-- [Ultimaker 3 Extended](http://agrilab.unilasalle.fr/projetsstions/26-imprimante-3d-ultimaker-3-extended
-- [Prusa i3 MK3](http://agrilab.unilasalle.fr/projets/projects/tutoriels/questions/28prusa-i3-mk3
-- [Creality CR-10 S5](http://agrilab.unilasalle.fr/projetsquestions/180-imprimante-3d-creality-cr-10-s5
-- [Creality Ender 5 Plus](http://agrilabrojects/tutoriels/questions/181-imprimante-3d-creality-ender-5-plus
-- [Ultimaker 2 Go](http://agrilab.unilasalle.fr/projets/projects/tutoriels/mante-3d-ultimaker-2-go
+- [Atelier Impression 3D](http://agrilab.unilasalle.fr/projets/projects/tutoriels/questions/108-impression-3d-atelier)
+- [Ultimaker 3 Extended](http://agrilab.unilasalle.fr/projets/projects/tutoriels/questions/26-imprimante-3d-ultimaker-3-extended)
+- [Prusa i3 MK3](http://agrilab.unilasalle.fr/projets/projects/tutoriels/questions/28-imprimante-3d-prusa-i3-mk3)
+- [Creality CR-10 S5](http://agrilab.unilasalle.fr/projets/projects/tutoriels/questions/180-imprimante-3d-creality-cr-10-s5)
+- [Creality Ender 5 Plus](http://agrilab.unilasalle.fr/projets/projects/tutoriels/questions/181-imprimante-3d-creality-ender-5-plus)
+- [Ultimaker 2 Go](http://agrilab.unilasalle.fr/projets/projects/tutoriels/questions/5-imprimante-3d-ultimaker-2-go)
 - [Ultimaker Cura](https://ultimaker.com/fr/software/ultimaker-cura)
 - [Thingiverse](https://www.thingiverse.com/)
 
