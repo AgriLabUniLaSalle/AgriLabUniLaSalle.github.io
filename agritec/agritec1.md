@@ -4,6 +4,20 @@ title: Module Prototypage - Projet Robotique
 menubar_toc: true
 toc_title: INDEX
 ---
+
+# Groupes :
+
+**Groupe A :**
+
+- Groupe 1 : Gaëtan, Timothée, Jules
+- Groupe 2 : Esteban, Arthur Franconville
+
+**Groupe A :**
+
+- Groupe 3 : Marius, Gwenolé
+- Groupe 4 :Arthur Eliot
+- Groupe 5 : Lily, Emilien
+
 # Cahier des charges :
 
 **Composants/robot :**
