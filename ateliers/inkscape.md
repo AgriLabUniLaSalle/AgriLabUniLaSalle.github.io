@@ -7,8 +7,6 @@
 C'est un logiciel de dessin vectoriel 2D, polyvalent et relativement simple à prendre en main. Son apprentissage est particulièrement recommandé pour débuter, car les compétences acquises sont réutilisables dans de nombreux autres ateliers du FabLab.
 
 📖 Ressources :
-
-- https://agrilab.unilasalle.fr/projets/projects/tutoriels/questions/17-atelier-2d-inkscape
 - https://inkscape.org/
 
 ---
