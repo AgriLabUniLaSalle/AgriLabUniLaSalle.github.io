@@ -7,3 +7,22 @@
       link: /agritec/agritec2
     - name: AgriTEC 3
       link: /agritec/agritec3
+
+- name: Machines
+  link :
+  dropdown: 
+    - name: Imprimantes 3D
+      link: /machines/imprimantes3D
+    - name: Découpe Laser
+      link: /machines/decoupeLaser
+
+- name: Ateliers
+  link :
+  dropdown: 
+    - name: Inkscape dessin 2D
+      link: /ateliers/inkscape
+    - name: Conception Assistée par Ordinateur
+      link: /ateliers/CAO
+
+
+
