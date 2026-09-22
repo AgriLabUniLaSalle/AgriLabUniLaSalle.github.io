@@ -15,6 +15,8 @@ toc_title: INDEX
 
 Définition des objectifs du module, discussion des projets individuels ou en groupe, clarification des attentes.
 
+[Cours](https://github.com/AgriLabUniLaSalle/AgriLabUniLaSalle.github.io/blob/main/agritec/CoursGestionProjetWiki.pdf)
+
 ---
 
 ### Lundi 14 septembre 2026 · 13h30 à 16h30
@@ -87,3 +89,10 @@ Préparation de la présentation orale, répétition des interventions et retour
 
 Présentation formelle des dossiers techniques devant un jury et échanges sur les solutions proposées.
 
+**Remise de la liste des besoins en matériel et composants, validée par un encadrant du module Prototypage.**
+
+Les demandes de validation peuvent être effectuées avant la date butoir. Toute liste validée entraînera le lancement des commandes correspondantes.
+
+Tout oubli de matériel considéré comme évitable par les encadrants, et nécessitant le passage d'une commande complémentaire, pourra faire l'objet d'une pénalité de **2 points par commande supplémentaire** sur la note du second semestre.
+
+**ATTENTION :** à compter de cette date, chaque semaine de retard entraînera une pénalité de **1 point par semaine** sur la note du second semestre.
