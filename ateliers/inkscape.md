@@ -7,7 +7,7 @@
 C'est un logiciel de dessin vectoriel 2D, polyvalent et relativement simple à prendre en main. Son apprentissage est particulièrement recommandé pour débuter, car les compétences acquises sont réutilisables dans de nombreux autres ateliers du FabLab.
 
 📖 Ressources :
-- https://inkscape.org/
+- [site officiel](https://inkscape.org/)
 
 ---
 
@@ -38,3 +38,10 @@ Les fichiers créés peuvent notamment être utilisés avec :
 - utiliser les principaux outils de dessin ;
 - créer et modifier des objets simples ;
 - préparer un fichier pour la découpe laser.
+
+---
+
+## Types de fichiers compatibles
+
+- .svg : Scalable Vector Graphics, fichier commun pour la conception vectorielle [Page Wikipédia](https://fr.wikipedia.org/wiki/Scalable_Vector_Graphics)
+- .dxf : Drawing eXchange Format, fichier AutoCAD utilisé pour la découpe laser [Page Wikipedia](https://fr.wikipedia.org/wiki/Drawing_eXchange_Format)
