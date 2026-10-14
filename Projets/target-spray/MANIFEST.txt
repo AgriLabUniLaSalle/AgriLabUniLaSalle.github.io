@@ -1,0 +1,5 @@
+pages=20
+markdown_files=26
+python_blocks=8
+referenced_images=36
+missing_internal_links=0

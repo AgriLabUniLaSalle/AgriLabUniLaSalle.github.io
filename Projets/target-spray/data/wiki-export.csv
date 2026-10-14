@@ -1,0 +1,1112 @@
+"projet","page_wiki","contenu"
+"agriten_002-groupe-3-pulverisateur-automatise","Besoins","h1. Besoins
+
+Le target spray permet la réduction des produits phytosanitaires car on applique le produits à des zones ciblées. 
+Le suivie de sol permet aussi une réduction des produits phytosanitaires car on applique le produits au plus près de la plante on limite ainsi la volatilisation. 
+Il y a aussi un impact économique car on applique du produits à des zones ciblées et pas dans la parcelle entières."
+"agriten_002-groupe-3-pulverisateur-automatise","Budget","h1. Budget
+
+
+
+!budget.png!
+
+"
+"agriten_002-groupe-3-pulverisateur-automatise","Cahier_des_charges","h1. Cahier des charges
+
+h3. Objectifs : 
+
+Développer un système de pulvérisation ciblée capable de réduire l'utilisation de produits chimiques tout en augmentant l'efficacité opérationnelle.
+
+
+h3. Contexte : 
+
+Dans un monde où les enjeux environnementaux et la sécurité alimentaire sont de plus en plus pressants, l’agriculture doit évoluer vers des pratiques plus durables. La pulvérisation localisée émerge comme une technique innovante qui permet d'optimiser l'utilisation des intrants phytosanitaires. 
+
+Cette méthode consiste à appliquer des produits de protection des cultures uniquement sur les zones ciblées qui en ont besoin, plutôt que sur l'ensemble de la parcelle. Elle répond à plusieurs enjeux : 
+
+
+h3. Enjeux Écologiques 
+
+ 
+
+* Réduction de l'Utilisation des Pesticides : En ciblant uniquement les zones infestées, cette méthode permet de diminuer la quantité de produits phytosanitaires utilisés. Cela contribue à réduire la pollution des sols et des eaux, limitant ainsi l'impact sur la faune et la flore locales. 
+
+* Préservation de la Biodiversité : En évitant l'application généralisée de traitements chimiques, on protège les espèces non ciblées, comme les pollinisateurs et d'autres insectes bénéfiques, favorisant ainsi un écosystème plus équilibré. 
+
+* Amélioration de la Santé des Sols : Une utilisation plus judicieuse des intrants contribue à maintenir la santé des sols en préservant la microfaune, essentielle à la fertilité et à la structure du sol. 
+
+* Réduction des Émissions de Gaz à Effet de Serre : Moins de produits chimiques à transporter et à appliquer entraîne une diminution des émissions liées aux activités agricoles, contribuant à la lutte contre le changement climatique. 
+
+h3. Enjeux Économiques 
+
+ 
+
+* Optimisation des Coûts : En réduisant la quantité de produits utilisés, les agriculteurs réalisent des économies significatives sur les intrants, ce qui peut améliorer leur rentabilité. 
+
+* Efficacité des Traitements : La pulvérisation localisée permet d’augmenter l'efficacité des traitements en ciblant précisément les problèmes, ce qui peut conduire à des rendements plus élevés et à une meilleure qualité des produits. 
+
+* Conformité Réglementaire : Avec des normes de plus en plus strictes sur l'utilisation des pesticides, cette méthode aide les agriculteurs à se conformer aux réglementations tout en continuant à produire. 
+
+* Renforcement de la Compétitivité : Les exploitations utilisant des techniques durables peuvent bénéficier d’une meilleure image de marque et attirer des consommateurs soucieux de l'environnement, ce qui peut se traduire par une augmentation des ventes.
+
+h3.  Problématique : 
+
+Comment la pulvérisation localisée peut-elle être intégrée de manière efficace et durable dans les pratiques agricoles, tout en garantissant à la fois la rentabilité économique des exploitations et la préservation des écosystèmes locaux ?
+
+h3. Contraintes : 
+
+Conditions environnementales (humidité, vent, poussière), types de cultures, et accessibilité économique.
+
+h3. Conditions d'exploitation : 
+
+Environnement :
+Résistance à la poussière, à l'humidité et aux températures extrêmes (-10 °C à +50 °C).
+Fonctionnement stable sur terrains accidentés.
+Ergonomie : Interface utilisateur intuitive, facile à configurer et à entretenir.
+
+
+h3. Historique : 
+
+En 1897, le premier pulvérisateur à dos voit le jour, développer par la société Holder. Très vite des nombreuses déclinaisons agricoles voient le jour, sous la forme d’un pulvérisateur porté avec une cuve de 1000Litres et une rampe de 10m. Au fil des années, les différents pulvérisateurs n’ont cessé de s’améliorer, augmentant leur capacité, et diversifiant leurs champs d’actions (Grandes cultures, maraîchage, Viticulture, etc...). Désormais, 3 grands types de pulvérisateurs existent : porté, trainé et automoteur.
+
+h3. Matrice SWOT :
+
+* Forces : 
+ 
+
+AgriLab nous prête des machines pour mener à bien notre projet  
+
+Projet Open Sources
+
+Technologies avancées : Intégration de capteurs (vision artificielle, LiDAR, infrarouge) et d'algorithmes d'IA pour des performances en temps réel.
+
+* Faiblesses : 
+
+Connaissance en programmation : Complexité technique : Installation et maintenance nécessitent des compétences spécialisées.
+
+Coût initial élevé : Les capteurs et systèmes embarqués représentent un investissement important, limitant l’accès pour les petits agriculteurs.
+
+* Atouts : 
+
+Matériel disponible :  
+
+Ancienne rampe de pulvérisateur. 
+
+Ancienne cuve. 
+
+Nouvelle réglementation “Plan Ecophyto 2030” pour réduire l’usage des produits phytosanitaires.  
+
+* Contraintes :
+ 
+Temps
+"
+"agriten_002-groupe-3-pulverisateur-automatise","Code_python_et_logiciel","h1. Code python et logiciel
+
+Le choix a été fait de faire fonctionner l'intelligence artificielle sans le module hat accélérateur d'IA afin de vérifier le bon fonctionnement des lasers. L'utilisation du module supplémentaire nécessite une conversion du fichier .pt en fichier optimisé. La conversion d'un fichier .pt en fichier .hef qui est optimisé pour l'utilisation du hat  étant nécessaire un tutoriel a été suivi (https://wiki.seeedstudio.com/tutorial_of_ai_kit_with_raspberrypi5_about_yolov8n_object_detection/). Celui-ci a posé problème car n'étant pas à jour et optimisé car il utilise python 3.8 sortie en 2019 et maintenu jusqu'en 2024. Cette version n'est plus installable facilement car elle n'est plus disponible sur les dépôts de fichiers officiels de python.
+
+Si l'on a pas installé les versions des paquets et logiciels utilisés le tutoriel, plusieurs erreurs peuvent se déclencher une par une suite aux incompatibilités ce qui a fait perdre du temps. Le Raspberry Pi fonctionnera donc seul.
+
+Pour obtenir un code adapté, l'intelligence artificielle Perplexity avec la requête suivante :
+Comment faire de la reconnaissance d'image avec un fichier .pt et yolov8 sur un Raspberry Pi 5 tout en ayant 2 zones distinctes qui vont déclencher chacune un laser via le gpio.
+
+<pre><code class=""python"">
+# coding: utf-8
+# Code complet pour Raspberry Pi 5 - YOLOv8 + Contrôle Laser
+
+import cv2
+import numpy as np
+import gpiozero
+from gpiozero import OutputDevice
+from ultralytics import YOLO
+from matplotlib.path import Path
+from time import sleep
+
+# Configuration GPIO
+LASER_PIN_Z1 = 17  # Broche GPIO pour la zone 1
+LASER_PIN_Z2 = 18  # Broche GPIO pour la zone 2
+
+# Initialisation des sorties lasers
+laser_z1 = OutputDevice(LASER_PIN_Z1, active_high=False, initial_value=False)
+laser_z2 = OutputDevice(LASER_PIN_Z2, active_high=False, initial_value=False)
+
+# Définition des zones de détection (coordonnées normalisées)
+ZONE_1 = np.array([[0.2, 0.2], [0.5, 0.2], [0.5, 0.5], [0.2, 0.5]])  # Zone gauche
+ZONE_2 = np.array([[0.5, 0.5], [0.8, 0.5], [0.8, 0.8], [0.5, 0.8]])  # Zone droite
+
+def convert_to_relative(bbox, img_width, img_height):
+    """"""Convertit les coordonnées absolues en relatives""""""
+    x_center = (bbox[0] + bbox[2]) / (2 * img_width)
+    y_center = (bbox[1] + bbox[3]) / (2 * img_height)
+    return (x_center, y_center)
+
+def setup_zones(img_width, img_height):
+    """"""Adapte les zones à la résolution réelle de l'image""""""
+    return {
+        'zone1': ZONE_1 * np.array([img_width, img_height]),
+        'zone2': ZONE_2 * np.array([img_width, img_height])
+    }
+
+def main():
+    # Chargement du modèle YOLOv8
+    model = YOLO('best.pt')  # Remplacez par votre modèle .pt
+    
+    # Initialisation de la caméra
+    cap = cv2.VideoCapture(0)
+    cap.set(cv2.CAP_PROP_FRAME_WIDTH, 640)
+    cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 480)
+    
+    try:
+        while True:
+            ret, frame = cap.read()
+            if not ret:
+                break
+
+            img_height, img_width = frame.shape[:2]
+            zones = setup_zones(img_width, img_height)
+            
+            # Détection YOLOv8
+            results = model(frame, imgsz=320, verbose=False)
+            
+            # Réinitialisation des états des lasers
+            laser_z1.off()
+            laser_z2.off()
+
+            # Traitement des détections
+            for result in results:
+                boxes = result.boxes.xyxy.cpu().numpy()
+                for box in boxes:
+                    x1, y1, x2, y2 = box
+                    center = convert_to_relative((x1, y1, x2, y2), img_width, img_height)
+                    
+                    # Vérification appartenance zone
+                    in_zone1 = Path(zones['zone1']).contains_point((center[0]*img_width, center[1]*img_height))
+                    in_zone2 = Path(zones['zone2']).contains_point((center[0]*img_width, center[1]*img_height))
+                    
+                    # Contrôle des lasers
+                    if in_zone1:
+                        laser_z1.on()
+                    if in_zone2:
+                        laser_z2.on()
+
+            # Visualisation (optionnel)
+            cv2.polylines(frame, [zones['zone1'].astype(int)], True, (0,255,0), 2)
+            cv2.polylines(frame, [zones['zone2'].astype(int)], True, (0,0,255), 2)
+            cv2.imshow('YOLOv8 Detection', frame)
+            
+            if cv2.waitKey(1) == ord('q'):
+                break
+
+    except KeyboardInterrupt:
+        print(""Arrêt propre..."")
+    finally:
+        cap.release()
+        cv2.destroyAllWindows()
+        laser_z1.close()
+        laser_z2.close()
+
+if __name__ == '__main__':
+    main()
+</code></pre>
+
+Le code présenté ci-dessus n'est pas fonctionnel car il ne présente aucun affichage.
+
+Grâce à Microsoft Visual Studio Code via l'extension Github Copilot (intelligence artificielle spécialisée dans le codage proposée par Github), plusieurs fonctionnalités ont été rajoutés telles qu'un affichage à l'écran qui s'adapte à la résolution de l'écran qui affiche l'image de la caméra, l'ajout de ""logs"" pour savoir si un élément du code ou un composant qui n'est pas détecté, la gestion des lasers et des coordonnées des objets détecté pour l'allumage des lasers, un cadre qui s'affiche autour de chaque plante détéctée.
+
+Voici un code fonctionnel qui demande quelques corrections :
+<pre><code class=""python"">
+# coding: utf-8
+# Code complet pour Raspberry Pi 5 - YOLOv8 + Contrôle Laser avec picamera2
+
+import cv2
+import numpy as np
+import gpiozero
+from gpiozero import OutputDevice
+from ultralytics import YOLO
+from matplotlib.path import Path
+from picamera2 import Picamera2, Preview
+import logging
+from time import sleep
+
+# Configuration du logging
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+
+# Configuration GPIO
+LASER_PIN_Z1 = 17  # Broche GPIO pour la zone 1
+LASER_PIN_Z2 = 27  # Broche GPIO pour la zone 2
+
+# Initialisation des sorties lasers
+try:
+    laser_z1 = OutputDevice(LASER_PIN_Z1, active_high=False, initial_value=False)
+    laser_z2 = OutputDevice(LASER_PIN_Z2, active_high=False, initial_value=False)
+except gpiozero.exc.PinError as e:
+    logging.error(f""Erreur d'initialisation GPIO: {e}"")
+    exit(1)  # Arrêt immédiat car les lasers sont essentiels
+
+# Définition des zones de détection (coordonnées normalisées)
+ZONE_1 = np.array([[0.2, 0.2], [0.5, 0.2], [0.5, 0.5], [0.2, 0.5]])  # Zone gauche
+ZONE_2 = np.array([[0.5, 0.5], [0.8, 0.5], [0.8, 0.8], [0.5, 0.8]])  # Zone droite
+ZONE_POINTS = {
+    'zone1': ZONE_1,
+    'zone2': ZONE_2,
+}
+
+def convert_to_relative(bbox, img_width, img_height):
+    """"""Convertit les coordonnées absolues en relatives.""""""
+    x_center = (bbox[0] + bbox[2]) / (2 * img_width)
+    y_center = (bbox[1] + bbox[3]) / (2 * img_height)
+    return (x_center, y_center)
+
+def setup_zones(img_width, img_height):
+    """"""Adapte les zones à la résolution réelle de l'image.""""""
+    zones = {}
+    for zone_name, zone_points in ZONE_POINTS.items():
+        zones[zone_name] = zone_points * np.array([img_width, img_height])
+    return zones
+
+def check_if_inside(point, zone_points):
+    """"""Vérifie si un point est à l'intérieur d'une zone polygonale.""""""
+    path = Path(zone_points)
+    return path.contains_point(point)
+
+def main():
+    """"""Fonction principale pour exécuter la détection d'objets et le contrôle laser.""""""
+    logging.info(""Chargement du modèle YOLOv8..."")
+    try:
+        model = YOLO('best.pt')  # Remplacez par votre modèle .pt (lien du fichier)
+    except Exception as e:
+        logging.error(f""Erreur lors du chargement du modèle YOLOv8: {e}"")
+        return
+
+    logging.info(""Initialisation de la caméra avec picamera2..."")
+    try:
+        picam2 = Picamera2()
+        config = picam2.create_preview_configuration(main={""size"": (640, 480), ""format"": ""RGB888""})
+        picam2.configure(config)
+        picam2.start()
+    except Exception as e:
+        logging.error(f""Erreur lors de l'initialisation de la caméra : {e}"")
+        return
+
+    try:
+        while True:
+            # Capture d'une image avec picamera2
+            frame = picam2.capture_array()
+            img_height, img_width = frame.shape[:2]
+            zones = setup_zones(img_width, img_height)
+
+            # Détection YOLOv8
+            try:
+                results = model(frame, imgsz=320, verbose=False)
+            except Exception as e:
+                logging.error(f""Erreur lors de la détection YOLOv8: {e}"")
+                continue
+
+            # Réinitialisation des états des lasers
+            laser_z1.off()
+            laser_z2.off()
+
+            # Traitement des détections
+            for result in results:
+                boxes = result.boxes.xyxy.cpu().numpy()
+                for box in boxes:
+                    x1, y1, x2, y2 = box
+                    center = convert_to_relative((x1, y1, x2, y2), img_width, img_height)
+                    center_pixel = (center[0] * img_width, center[1] * img_height)
+
+                    # Vérification appartenance zone
+                    in_zone1 = check_if_inside(center_pixel, zones['zone1'])
+                    in_zone2 = check_if_inside(center_pixel, zones['zone2'])
+
+                    # Contrôle des lasers
+                    if in_zone1:
+                        logging.info(""Objet détecté dans la zone 1. Activation du laser Z1."")
+                        laser_z1.on()
+                    if in_zone2:
+                        logging.info(""Objet détecté dans la zone 2. Activation du laser Z2."")
+                        laser_z2.on()
+
+            # Visualisation (optionnel)
+            cv2.polylines(frame, [zones['zone1'].astype(int)], True, (0, 255, 0), 2)
+            cv2.polylines(frame, [zones['zone2'].astype(int)], True, (0, 0, 255), 2)
+            cv2.imshow('YOLOv8 Detection', frame)
+
+            if cv2.waitKey(1) == ord('q'):
+                logging.info(""Arrêt demandé par l'utilisateur."")
+                break
+
+    except KeyboardInterrupt:
+        logging.info(""Arrêt propre via interruption clavier."")
+    finally:
+        logging.info(""Libération des ressources..."")
+        picam2.stop()
+        cv2.destroyAllWindows()
+        laser_z1.close()
+        laser_z2.close()
+
+if __name__ == '__main__':
+    main()
+</code></pre>
+
+Les broches GPIO utilisées sont les 17 et 27 (en configuration BCM (Broadcom, la marque du processeur situé sur le Raspberry Pi), la seconde étant la board avec la numérotation physique des broches). 
+Pour connaitre la configuration de son matériel, il faut utiliser la commande ""pinout"" sur le terminal du Raspberry Pi. Pour aussi voir a quoi sert chaque broche le site internet https://pinout.xyz/ peut être utile pour les carte possédant 40 broches tels que les Raspberry Pi 1, 2, 3, 4 et 5 avec leurs déclinaisons A, B et compute module.
+
+Les broches 17 et 27 sont des broches qui permettent d'envoyer un signal simple, ici une impulsion pour piloter l'allumage des lasers.
+Les lasers sont alimentés via le H-Bridge pour éviter d'utiliser les sorties 5v de l'ordinateur et de pouvoir ajouter plus de lasers (avec H-Bridge) si besoin.
+
+Code actuel et définitif :
+
+Fichier pré-entrainé : (""Fichier .pt"":https://agrilab.unilasalle.fr/projets/attachments/download/6417/yolov8n1500.pt). Celui-ci est créé à partir du dataset : https://app.roboflow.com/test-dwijd/dandelion-8fytt/browse . Celui-ci présente un nombre de 46 images dont une partie de capture d'écran issues de la vidéo de présentation du projet ainsi que des images proposées en open source sur d'autres dataset présentant des pissenlits (plante reconnue). L'entrainement du modèle présenté a pu bénéficier de 1500 epochs (séquences d'entrainement) car le nombre d'image n'est pas très élevé.
+
+<pre><code class=""python"">
+# coding: utf-8
+# Code complet pour Raspberry Pi 5 - YOLOv8 + Contrôle Laser avec picamera2 + cadre autour des plantes
+
+import cv2
+import numpy as np
+import gpiozero
+from gpiozero import OutputDevice
+from ultralytics import YOLO
+from matplotlib.path import Path
+from picamera2 import Picamera2, Preview
+import logging
+from time import sleep
+
+# Configuration du logging
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+
+# Configuration GPIO
+LASER_PIN_Z1 = 17  # Broche GPIO pour la zone 1
+LASER_PIN_Z2 = 27  # Broche GPIO pour la zone 2
+
+# Initialisation des sorties lasers avec active_high=True pour H-bridge
+try:
+    laser_z1 = OutputDevice(LASER_PIN_Z1, active_high=True, initial_value=False)
+    laser_z2 = OutputDevice(LASER_PIN_Z2, active_high=True, initial_value=False)
+except gpiozero.exc.PinError as e:
+    logging.error(f""Erreur d'initialisation GPIO: {e}"")
+    exit(1)  # Arrêt immédiat car les lasers sont essentiels
+
+def convert_to_relative(bbox, img_width, img_height):
+    """"""Convertit les coordonnées absolues en relatives.""""""
+    x_center = (bbox[0] + bbox[2]) / (2 * img_width)
+    y_center = (bbox[1] + bbox[3]) / (2 * img_height)
+    return (x_center, y_center)
+
+def main():
+    """"""Fonction principale pour exécuter la détection d'objets et le contrôle laser.""""""
+    logging.info(""Chargement du modèle YOLOv8..."")
+    try:
+        model = YOLO('/home/agrilab/Downloads/yolov8n1500.pt')  # Remplacez par votre modèle .pt
+    except Exception as e:
+        logging.error(f""Erreur lors du chargement du modèle YOLOv8: {e}"")
+        return
+
+    logging.info(""Initialisation de la caméra avec picamera2..."")
+    try:
+        picam2 = Picamera2()
+        config = picam2.create_preview_configuration(main={""size"": (640, 480), ""format"": ""RGB888""})
+        picam2.configure(config)
+        picam2.start()
+    except Exception as e:
+        logging.error(f""Erreur lors de l'initialisation de la caméra : {e}"")
+        return
+
+    try:
+        while True:
+            frame = picam2.capture_array()
+            img_height, img_width = frame.shape[:2]
+
+            object_in_zone1 = False
+            object_in_zone2 = False
+
+            # Détection YOLOv8
+            try:
+                results = model(frame, imgsz=320, verbose=False)
+            except Exception as e:
+                logging.error(f""Erreur lors de la détection YOLOv8: {e}"")
+                continue
+
+            # Traitement des détections
+            for result in results:
+                boxes = result.boxes.xyxy.cpu().numpy()
+                for box in boxes:
+                    x1, y1, x2, y2 = box
+                    center = convert_to_relative((x1, y1, x2, y2), img_width, img_height)
+                    center_pixel_x = center[0] * img_width  # Coordonnée X en pixels
+
+                    if center_pixel_x < img_width / 2:
+                        object_in_zone1 = True
+                    elif center_pixel_x >= img_width / 2:
+                        object_in_zone2 = True
+
+            # Activation/désactivation immédiate des lasers selon la détection
+            if object_in_zone1:
+                laser_z1.on()
+                logging.info(""Laser Z1 allumé (détection en cours)."")
+            else:
+                laser_z1.off()
+            if object_in_zone2:
+                laser_z2.on()
+                logging.info(""Laser Z2 allumé (détection en cours)."")
+            else:
+                laser_z2.off()
+
+            # Visualisation (optionnel)
+            cv2.line(frame, (img_width // 2, 0), (img_width // 2, img_height), (255, 0, 0), 2)
+            cv2.imshow('YOLOv8 Detection', frame)
+
+            if cv2.waitKey(1) == ord('q'):
+                logging.info(""Arrêt demandé par l'utilisateur."")
+                break
+
+    except KeyboardInterrupt:
+        logging.info(""Arrêt propre via interruption clavier."")
+    finally:
+        logging.info(""Libération des ressources..."")
+        laser_z1.off()
+        laser_z2.off()
+        laser_z1.close()
+        laser_z2.close()
+        picam2.stop()
+        cv2.destroyAllWindows()
+
+if __name__ == '__main__':
+    main()
+</code></pre>
+
+Avec ce code, le Raspberry Pi est capable de détecter des plantes, aussi la couleur jaune car la résolution de l'écran est basse. Une des limitations présentées est la puissance du Raspberry Pi qui créé de la latence dans la détection et donc un retard des lasers."
+"agriten_002-groupe-3-pulverisateur-automatise","Conception_banc_de_démonstration","h1. Conception banc de démonstration
+
+Dans le cadre de la conception du banc de démonstration, nous avons retenu l'utilisation de profilés en aluminium extrudé de section carrée, dotés de quatre rainures latérales. Ce choix structurel présente plusieurs avantages, notamment une modularité accrue, une facilité d’assemblage, ainsi qu'une meilleure ergonomie pour le transport et l’intégration des composants.
+
+Par la suite, nous avons réalisé une conception 3D pour connaître le nombre de profilés et la dimension exacte qu'il nous fallait.
+
+!{width: 500px}Conception.png!
+
+Concernant la simulation du défilement des adventices, nous avons opté pour un écran de télévision en lieu et place d’un convoyeur mécanique. Cette décision repose sur des considérations pratiques et techniques : l’utilisation d’un convoyeur impliquerait le développement d’un système d'entraînement motorisé, ainsi qu’un dispositif de fixation des adventices pour assurer leur stabilité lors du déplacement. À l’inverse, la solution vidéo permet de reproduire fidèlement le mouvement des adventices via une simple lecture en boucle, tout en réduisant la complexité mécanique du dispositif.
+
+!{width: 500px}banc.jpg!
+
+!{width: 500px}boitier.jpg!
+
+Deux modules laser ont été installés afin de simuler les jets émis par les buses d’un pulvérisateur. L’écartement entre les deux lasers est de 25 cm, correspondant à l’espacement standard entre buses sur une rampe de pulvérisation. Les lasers sont montés sur des supports dédiés assurant leur stabilité et leur alignement, comme illustré sur la photo ci-dessous.
+
+
+!{width: 500px}laser.jpg!
+
+La caméra a été positionnée à une hauteur de 72,5 cm par rapport à l’écran, de manière à couvrir l’intégralité de la surface visible grâce à son angle de vue de 76°. Afin d’ajuster le faisceau des lasers, dont la projection excédait initialement les dimensions de l’écran, nous avons conçu des cylindres optiques permettant de concentrer et rediriger le faisceau lumineux. Chaque laser est ainsi calibré pour couvrir précisément la moitié de l’écran, soit une surface de 30 cm.
+
+!{width: 500px}tube_laser.jpg!
+
+Dans un souci d’intégration soignée et fonctionnelle, des colliers de serrage ont été mis, assurant un montage propre et sécurisé.
+
+!{width: 400px}support_cable_1.jpg!
+
+!{width: 500px}support_cable_2.jpg!"
+"agriten_002-groupe-3-pulverisateur-automatise","Contexte","h1. Contexte
+
+Dans un monde où les enjeux environnementaux et la sécurité alimentaire sont de plus en plus pressants, l’agriculture doit évoluer vers des pratiques plus durables. La pulvérisation localisée émerge comme une technique innovante qui permet d'optimiser l'utilisation des intrants phytosanitaires.
+
+Cette méthode consiste à appliquer des produits de protection des cultures uniquement sur les zones ciblées qui en ont besoin, plutôt que sur l'ensemble de la parcelle.
+"
+"agriten_002-groupe-3-pulverisateur-automatise","Contraintes","h1. Contraintes
+
+
+
+Dans les contraintes, on peut retrouver différents facteurs : 
+
+* Limites technologiques 
+
+* Connaissances : Les connaissances, on pourra les améliorés tout au long du projet afin de réaliser au mieux le projet en respectant les conditions sur target spray.
+
+* Prix : Nous avons un budget maximal d'environ 1500 €, c'est à nous de trouver les solutions afin d'être dans le budget. Il faut trouver les bons composants au bon prix. (Rapport qualité / prix).
+  
+* Le banc de présentation doit être démontable
+     
+Performance :
+
+La caméra doit fonctionner avec précision dans des environnements difficiles :
+
+Conditions météorologiques extrêmes (vent, pluie, brouillard).
+Présence de poussière ou de saletés sur les capteurs.
+Variations de luminosité, notamment en plein soleil ou au crépuscule.
+Détection erronée :
+Les systèmes peuvent confondre des mauvaises herbes avec des cultures ou manquer de précision à grande vitesse.
+
+Compatibilité :
+Intégrer le système sur des équipements agricoles existants peut poser des défis techniques.
+
+
+      
+Liens intéressants :
+https://github.com/gabrielburnworth/plant-detection
+https://github.com/geezacoleman/OpenWeedLocator
+https://plantcv.org/
+https://www.youtube.com/watch?v=WC0oXKY47aU&t=2212s
+https://agrilab.unilasalle.fr/projets/projects/targetspray/wiki
+https://carbonbee.fr/
+https://www.youtube.com/watch?v=7mG8zqa8i7g&t=472s"
+"agriten_002-groupe-3-pulverisateur-automatise","Création_d'un_dataset_via_Roboflow","h1. Création d'un dataset via Roboflow
+
+La formule gratuite du site (sans abonnement) permet uniquement de créer des datasets publics !!!
+
+Pour utiliser Roboflow, il faut tout d'abord créer un compte via l'onglet sign in du site internet.
+
+Ensuite, il faut se rendre sur son espace de travail nommé ""Workspace"".
+
+
+!{width: 200px}image1.jpeg!
+
+il faut ensuite cliquer sur ""New project"" en haut à droite de l'écran.
+
+Le site va ensuite afficher la fenêtre de création de la page de projet.
+
+!{width: 300px}image2.jpeg!
+
+Celle-ci demande de donner un nom au dataset, de lui donner une référence pour une recherche si l'on a créé plusieurs datasets. il demande aussi le type d'ia que l'on veut entraîner (détection d'objets, segmentation,...)
+
+Après cela, il faut donc ajouter des images au dataset. La page d'import des images est la première qui apparaît après la création du projet.
+
+!{width: 300px}image3.jpeg!
+
+Après l'import, plusieurs options sont proposées. On peut continuer d'importer d'autres images, prendre des images ressemblantes à celles déjà importées, chercher un autre dataset à ajouter directement dans celui que l'on créé. Soit sauvegarder et continuer (""Save and Continue"").
+
+Sur l'exemple ci-dessous, j'ai ajouté une photo de pièce de monnaie, le site me propose d'ajouter des images de pièces.
+
+!{width: 300px}image5.jpeg!
+
+Après avoir sauvegardé, le site propose automatiquement de faire la sélection des zones des images qu'il faut reconnaitre.
+
+!{width: 300px}image4.jpeg!
+
+Pour la sélection manuelle, il cliquer sur ""Start Manual Labeling"".
+
+La fenêtre ci-dessous va s'afficher :
+
+!{width: 300px}image15.jpeg!
+
+Il faut ensuite sélectionner la zone de l'objet en question.
+
+!{width: 300px}image13.jpeg!
+
+Une fenêtre va s'ouvrit pour faire le choix de la catégorie de l'objet.
+
+!{width: 300px}image12.jpeg!
+
+Une fois l'annotation faite, sera affiché les différentes classes d'objets, ainsi que les couches créées pour détecter l'objet.
+
+On peut maintenant ajouter l'image au dataset avec le bouton ""Add __ Image to Dataset"" :
+
+!{width: 300px}image11.jpeg!
+
+Roboflow va proposer de modifier le découpage de l'image pour les différentes phases d'entrainement de l'ia (train pour la phase d'enseignement de l'ia, faire le lien entre les données et ajuster ses paramètres, validation pour l'évaluation des performances du modèle pour réajuster des paramètres, test pour l'évaluation du modèle face à des données inconnues pour le modèle).
+
+!{width: 300px}image9.jpeg!
+
+Une fois les images ajoutées, nous pouvons créer une nouvelle version du dataset :
+
+!{width: 300px}image16.jpeg!
+
+Pour valider, il faut cliquer sur ""continue"" jusqu'à ce que tous les étapes soient effectuées.
+
+Le dataset ainsi créé apparaitra de la façon suivante :
+
+!{width: 300px}image18.jpeg!
+
+Il est maintenant disponible au téléchargement par tous.
+
+Pour le télécharger, il faut utiliser le petit onglet nommé ""Download Dataset"" en haut à droite de l'écran.
+
+la page de téléchargement s'affichera et permet de récupérer le dataset pour différentes versions de YOLO, ainsi que d'autres modèles, il peut aussi être exporté en fichier .zip pour un entrainement en local sur un ordinateur personnel.
+
+Pour le projet, YOLOv11 a été selectionné et génère du code python pour l'installer dans le bureau virtuel présenté sur la page ""Entrainement d'une intelligence artificielle"" de la page du projet.
+
+!{width: 300px}image17.jpeg!"
+"agriten_002-groupe-3-pulverisateur-automatise","Entrainement_d'une_intelligence_artificielle","h1. Entrainement d'une intelligence artificielle
+
+Le modèle utilisé est Yolo en version 8. C’est un modèle créé et développé par l’entreprise Ultralytics. Il permet de faire de la reconnaissance d’objet et de la segmentation d’images. Pour que le modèle fonctionne, il lui faut une base de données sur laquelle s’entrainer appelée dataset. Yolo s’utilise sur un raspberry pi 5 avec de préférence un AI hat+ de l’organisation Raspberry Pi en association avec la société Hailo (le hat augmente la puissance de calcul de la carte et permet de décharger la puce de la carte principale, ce qui rend l’exploitation du modèle réclamant plus de ressources de manière plus fluide). Le système d'exploitation à utiliser est de préférence un système basé sur Debian et adapté aux raspberry pi tels que Raspberry Pi OS, Ubuntu Desktop, Pop OS (de l'entreprise System 76)
+
+Le logiciel permettant d’entrainer le modèle est Google Colab qui permet d’executer du code python sur une sorte de bureau virtuel (""Lien de téléchargement du modèle de bureau virtuel utilisable pour entrainer l'IA"":https://agrilab.unilasalle.fr/projets/attachments/download/6437/Notebook_d_entrainement_pour_yolov8.ipynb)) avec des ressources limités allouées mais suffisante pour cette utilisation (2 cœurs CPU, 16 go de RAM et 16 go de mémoire vidéo, cette dernière étant indispensable). Ces ressources étant utilisables pour tout le monde, la priorité est fixée sur les comptes ayant un abonnement payant sur le service. 
+
+L’entrainement du modèle peut donc s’avérer compliqué pendant les heures de pointe, sachant que la formule de base est gratuite, l'utilisation des ressources plus importantes sont réservées aux comptes ayant un abonnement payant.
+Sur le logiciel, un tutoriel est proposé au lien suivant (""Lien du tutoriel"":https://www.youtube.com/watch?v=SILmGmR6S_8)) un ensemble de lignes de code python à exécuter à adapter selon le dataset et la localisation des fichiers sur la machine hôte.
+
+Le ou les datasets utilisés proviennent du site internet Roboflow (""Roboflow"":https://universe.roboflow.com/)) qui en propose gratuitement et légalement pour faire du computer vision. Ce site permet aussi de créer ses propres datasets et de recadrer et faire du détourage avec les outils proposés tels que la sélection de l'objet pour le classer par catégories ( [[Création d'un dataset via Roboflow]] ) .
+
+
+Les différentes étapes sont à effectuer dans l’ordre de présentation de la page :
+
+1 :
+<pre><code class=""python"">
+import os
+HOME = os.getcwd()
+print(HOME)
+</code></pre>
+
+2 :
+<pre><code class=""python"">
+!pip install ultralytics
+
+from IPython import display
+display.clear_output()
+
+import ultralytics
+ultralytics.checks()
+</code></pre>
+
+3 :
+<pre><code class=""python"">
+from ultralytics import YOLO
+
+from IPython.display import display, Image
+</code></pre>
+
+4 (cette partie du code est à modifier en fonction du dataset) :
+<pre><code class=""python"">
+!mkdir {HOME}/datasets
+%cd {HOME}/datasets
+
+!pip install roboflow --quiet
+from roboflow import Roboflow
+rf = Roboflow(api_key=""partie cachée sur roboflow"")
+project = rf.workspace(""rgy"").project(""weed-nyehp"")
+version = project.version(5)
+dataset = version.download(""yolov8"")
+</code></pre>
+
+C'est à cette étape que le dataset s'installe et est décompressé.
+
+5 :
+<pre><code class=""python"">
+!yolo task=detect mode=train model=yolo11s.pt data=/content/weed-5/data.yaml epochs=70 imgsz=410 plots=True
+</code></pre>
+
+La partie ""model="" correspond au modèle d'IA qui va être utilisé, ici ce sera le modèle yolo v8n (modèle d'ancienne version présentant plus de documentation disponible). 
+
+Le ""data="" correspond à la localisation du fichier .yaml dans l'archive du dataset. Il est nécessaire de le changer avant de lancer l'entrainement car cela dépend de sa localisation dans les fichiers du bureau virtuel. 
+
+Le mot ""epochs"" indique le nombre d'entrainements que va faire le modèle pour détecter ce que l'on veut. Plus le modèle fait d'entrainements le dataset a d'images, plus il sera fiable.
+
+Le ""imgsz"" correspond à la taille en pixels des images du dataset. Il est nécessaire d'indiquer l'information de la page Roboflow.
+
+Ensuite, pour  la procédure d'entrainement, il est recommandé de connecter son ordinateur à internet de façon stable (par câble) afin d'éviter les déconnections et les erreurs du bureau virtuel.
+
+Le fichier qui sera généré en .pt peut être ré-entrainé et est directement utilisable pour la détéction via un programme python sur le Raspberry Pi."
+"agriten_002-groupe-3-pulverisateur-automatise","Justification_de_nos_choix","h1. Justification de nos choix"
+"agriten_002-groupe-3-pulverisateur-automatise","Le_projet","h1. Le projet
+
+Le projet a pour but de concevoir un prototype qui mettrait en évidence le fonctionnement de la pulvérisation localisée ainsi que le suivie de sol qui est indispensable pour une pulvérisation de précision."
+"agriten_002-groupe-3-pulverisateur-automatise","Modification_pour_Salonexpo","h1. Modification pour Salon et expo
+
+h2. Ajout de roulette sous le cadre
+
+L'ajout de roulette permet de faciliter les déplacements du banc d'essai sans avoir recours à un transpalette.
+
+Référence des roulettes : ""Lien"":https://www.amazon.fr/BAOLIHUI-Roulettes-Pivotantes-Chariots-Rotation/dp/B0C1SF2NZ9/ref=sr_1_2_sspa?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1IFGXEF175FG1&dib=eyJ2IjoiMSJ9.YQvPh8D-72CkbMwysuH_zTssXPdOcup51OOBz7HiPA6oSZH-B84Xc_f9L5l_KUnTV0xV7yjkLnaOIlWwXgavWwsOv1dFaspU-jQ72gs7LspBdofTVw2QOENAPLJHOY9cuuc0LrSrdaJbOoLKd4Ouv6e0vvAuRRmIJCSU8J83pavRnqjaLcmecize5bBDpARakK9BAPdLUQ0z7xpvaSCrcWA-hhhebAcWJA70oKdJR8v6f-m7LWHFARj_ACup4mVdezY01wV2ZmMAc_hW8nSkN2jD92WI2U4pnlwZWq6VTCo.1dxp2m-NKm1yIHvqPegU7-1iMxsS6I4ioQISMFnouAs&dib_tag=se&keywords=roulette%2B75%2B45&qid=1759137455&sprefix=roulette%2B75%2B45%2Caps%2C68&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1
+
+Platine avec perçage 74x45mm entre les axes.
+Diamètre de roue 75mm.
+
+{{thumbnail(roulettes.jpg, size=500, title=Miniature)}}
+
+h2. Ajout d'un écran 7""
+
+L'ajout d'un écran permet de visualiser la vue de la caméra et de mieux se rendre des calculs en temps réel du Raspberry Pi
+
+Référence de l'écran : ""Lien"":https://fr.aliexpress.com/item/1005008558996530.html
+1024x600x avec haut parleur intégré.
+Peut être alimenté en 5v avec un USB type C ou en 12v (min 1A) avec un connecteur barrel jack.
+Il est connecté au Raspberry Pi avec un câble HDMI vers micro HDMI.
+L'orientation de l'écran peut être changé via l'interface de celui et/ou via les paramètres du Raspbian OS installé sur le Raspberry Pi
+
+L'écran est fixé au châssis grâce à une tôle d'acier de 3mm d'épaisseur sur laquelle des trous sont percés. 4 en M4 pour le système Vesa de l'écran (65x54mm entre les axes) et 2 pour les vis de fixation M6. Nous avons utilisé des écrou frein pour fixer la plaque au rail aluminium.
+
+{{thumbnail(ecranPi.jpg, size=500, title=Miniature)}}
+
+h2. Création d'un service pour exécuter le script python au démarrage
+
+""Script"", ici, est une variable qui dépend du nom de votre fichier. Le chemin dépend de l'endroit ou se trouve votre fichier sur votre stockage mémoire.
+
+1. Crée un fichier de service :
+<pre>
+sudo nano /etc/systemd/system/Script.service
+</pre>
+
+2. Contenu à copier dans le service :
+
+<pre>
+[Unit]
+Description=Lancement du script Python Yolo V8
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/python3 /chemin/vers/Script.py
+Restart=always
+User=pi
+
+[Install]
+WantedBy=multi-user.target
+</pre>
+
+3. Pour recharger systemd et active le service :
+
+<pre>
+sudo systemctl daemon-reload
+sudo systemctl enable script.service
+sudo systemctl start script.service
+</pre>
+
+6. Pour vérifier son état :
+<pre>
+Systemctl status script.service
+</pre>
+
+h2. Création d'un service pour lire la piste audio au démarrage
+
+""music"", ici, est une variable qui dépend du nom de votre fichier. Le chemin dépend de l'endroit ou se trouve votre fichier sur votre stockage mémoire.
+
+1. Pour installer VLC (sur Raspbian OS)
+<pre>
+sudo apt update
+sudo apt install vlc
+</pre>
+
+2. Tester la commande dans le terminal :
+
+Pour lire un fichier WAV en boucle :
+
+<pre>
+cvlc --loop /chemin/vers/tonfichier.wav
+</pre>
+
+*cvlc* est la version sans interface graphique, idéale pour un Raspberry Pi en mode headless.
+L’option *--loop* relance automatiquement le fichier à la fin.
+
+3. Crée un fichier de service :
+<pre>
+sudo nano /etc/systemd/system/music.service
+</pre>
+
+4. Contenu à copier dans le service :
+
+<pre>
+[Unit]
+Description=Lecture WAV au démarrage avec VLC
+After=network.target sound.target
+
+[Service]
+ExecStart=/usr/bin/cvlc --loop /chemin/vers/tonfichier.wav
+Restart=always
+User=pi
+
+[Install]
+WantedBy=multi-user.target
+</pre>
+
+5. Pour recharger systemd et active le service :
+
+<pre>
+sudo systemctl daemon-reload
+sudo systemctl enable music.service
+sudo systemctl start music.service
+</pre>
+
+6. Pour vérifier son état :
+<pre>
+Systemctl status music.service
+</pre>
+
+h2. Ajout d'un casque pour lire l'audio
+
+Afin d'améliorer les condition d'écoute des explications audio de Robin Trournemolle en condition de salon, un casque Usb a été ajouté au système. Ce casque est branché à l'aide d'une rallonge au Raspberry Pi afin de pouvoir en changer si besoins.
+
+h2. Re-conception de la boite
+
+La boite contenant l’électronique a été modifié afin de rendre les composants visible, assurer une meilleurs protections de ceux ci et des câblages. Il s'agit d'un modèle du fabricant Fibox.
+"
+"agriten_002-groupe-3-pulverisateur-automatise","Planification","h1. Planification
+
+h2. Répartition des tâches
+
+* Chargé de la partie mécanique et assemblage : Maxence et Etienne
+* Chargé de la documentation du projet : Baptiste
+* Chargés de la programmation : Robin
+* Chargé de la conception 3D : Paul
+
+!{width: 700px}Repartition.png!
+
+!{width: 600px}planning_projet.png!
+
+!{width: 600px}Planif.png!"
+"agriten_002-groupe-3-pulverisateur-automatise","Répartition_des_tâches","h1. Répartition des tâches
+
+!{width: 700px}Repartition.png!
+
+* Chargé de la partie mécanique et assemblage : Maxence
+* Chargé de la documentation du projet : Baptiste 
+* Chargés de la programmation : Etienne et Robin
+* Chargé de la partie suivi de sol : Paul"
+"agriten_002-groupe-3-pulverisateur-automatise","Solutions_Technique","h1. Solutions Techniques
+
+Nous avons choisi de faire un banc d'essai démontable pour faciliter le transport."
+"agriten_002-groupe-3-pulverisateur-automatise","Solutions_Techniques","h1. Solutions Techniques
+
+Pour la réalisation du châssis, nous avons choisi une armature en profilé aluminium de série 50.
+Cela permet de transporter facilement le démonstrateur, car il sera léger et facilement démontable.
+
+!{width: 300px}tube_carré.jpg!
+
+Pour ces profilés, nous avons choisi le fournisseur SystéAl, car ils vendent ces profilés découpés à la taille souhaités. Ils vendent aussi les accessoires pour ces profilés. Notamment les connecteurs entre profilés et des embouts. 
+
+!{width: 200px}Systeal.png! !{width: 300px}raccordtube.jpg! !{width: 300px}piedbanc.jpg!
+
+
+Pour le choix du système informatique et la base du projet, nous avons choisi le projet Open Weed Locator (""Lien de la page GitHub du projet Open Weed Locator"":https://github.com/geezacoleman/OpenWeedLocator). 
+
+Ce projet présent sur GitHub nous parut intéressant à prendre comme base, car il dispose d'une documentation très complète avec une liste de composants et un logiciel pré configuré. 
+
+Il nous a servis pour avoir une liste de composants informatiques à commander et utiliser ainsi que le boîtier imprimé en 3D. Le tout reste modulaire et modifiable afin de trouver la solution de détection la plus efficace."
+"agriten_002-groupe-3-pulverisateur-automatise","Veille_concurrentielle","h1. Veille concurrentielle
+
+CarbonBee (https://carbonbee.fr/)
+
+Amazone (UXSmartSprayer, AmaSpot) : Le pulvérisateur Amazone est développé en partenariat avec Bosch et Xarvio.  
+Bosch fournit le système de traitement d’images. C’est-à-dire les caméras et le système infrarouge.  
+Xarvio (filiale de BASF) s’occupent de la partie décision. C’est-à-dire qu’en fonction de la stratégie de l’agriculteur (plus ou moins de produit) il ouvre ou non le porte jet correspondant à l’endroit où a été repérer l’adventice. 
+Ce pulvérisateur permet une réduction de 70% l’utilisation de produit phytopharmaceutiques   
+Ce pulvérisateur comporte un porte jet tous les 25 cm ce qui permet une précision hors norme  
+Le pulvérisateur Amazone
+
+(https://amazone.fr/fr-fr/agritechnica/agritechnica-2024-nouveautes/d%C3%A9tails-des-nouveaut%C3%A9s/ux-smartsprayer-amazone-998762)
+
+John-Deere (See & Spray) : La solution développée par John Deere fonctionne avec des caméras ainsi que du traitement d’images permettant la détection en vert sur marron. Cette solution permet aussi la modulation de la hauteur des rampes de 30 à 120 cm. Le gain donné est de 70% sur l’application d’herbicides et le taux de réussite de pulvérisation à la volée de 98%. Les caméras sont au nombre de 1 par mètre de rampe.
+
+(https://www.deere.fr/fr/mat%C3%A9riels-agricoles/see-and-spray/)
+
+Berthoud (SNIPER) : Carbon Bee équipe les pulvérisateurs Berthoud (Vantage) de caméra couplée à l’intelligence artificielle. Ceci permet de réduire les IFT de 45 à 85 %. Cette solution permet de scannée et pulvériser en vert sur marron et en vert sur vert. Les cartes peuvent être exportées dans un logiciel de gestion de ferme. Il existe deux modes d’application. Le mode ON/OFF, la pulvérisation est fermée par défaut et ne s’ouvre que lorsque la cible est détectée. Le désherbage bi-zone, 2 volume/hectare sont enregistrés dans le boîtier. La pulvérisation se fait automatiquement à dose 1 et dose 2 à détection de la cible.
+
+(https://www.berthoud.com/sniper/)
+
+Kuhn (I-Spray) :  
+Kuhn est en partenariat avec Carbon Bee, grâce à des capteurs hyperspectraux, la végétation est surveillée en permanence lors des passages au champs, de plus avec l’intelligence artificielle, les plantes sont analysées et les adventices reconnues. Lorsqu’elle est détectée la technologie va permettre de pulvériser uniquement la zone à détruire.
+
+Le I-Spray de chez Kuhn est capable de faire :  
+* Vert sur marron avec application ciblée 
+* Vert sur vert avec application ciblée 
+* Vert sur vert à dose variable 
+
+La solution I-Spray se démarque grâce : 
+* Capteurs parfaitement adaptés aux rampes  
+* Interface de communication ISOBUS  
+* Environnement digital MYKUHN  
+
+Grace à I-Spray de chez Kuhn, les économies de produits peuvent atteindre 95 % selon différents paramètres. Cela permet aussi de limiter les résistances des adventices aux produits.
+
+(https://www.kuhn.fr/actualites/i-spray-le-futur-continue-de-secrire-avec-kuhn)
+
++Bilberry/Trimble+
+
+Fondée en 2016 par trois français.
+Des caméras RGB haute définition sont installées sur les rampes du pulvérisateur.
+Elles couvrent l’intégralité de la surface de pulvérisation.
+Le système embarqué collecte les photos prises par les caméras et analyse l’état du champ à travers les modules de calculs. (Partenariat avec Nvidia )
+
+Une interface utilisateur est installée dans la cabine du pulvérisateur et permet de configurer et contrôler le processus de détection.
+Technologies disponibles : Green on Brown et Green on Green
+Vitesse de travail maximale 25 km/h
+Vitesse de travail moyenne 20 km/h
+
+(https://bilberry.io/)
+
+XeBee (https://agrosystem.fr/en/xebee-details/)
+
+Exxact Robotics (3S Spot Spray Sensor) (https://exxact-robotics.com/)"
+"agriten_002-groupe-3-pulverisateur-automatise","Veille_convoyeur","h1. Conception banc de démonstration
+
+Pour la conception du banc de démonstration, nous avons décidés de le construire avec des profilé aluminium carré avec 4 fentes latéral ce qui nous permettra un transport et un assemblage plus simple.
+
+Nous avons décidé de choisir une télé pour le défilement des mauvaises herbes au lieu d'un convoyeur. Ce choix est dû que c'est plus simple de faire défiler les adventices sur télé que sur un convoyeur. Pour le convoyeur, il aurait fallu trouver un moyen d'attacher les mauvaise herbe ainsi que de développer un système qui permet de faire avancer le convoyeur. Pour la télé, il suffit seulement de faire défiler une vidéo."
+"agriten_002-groupe-3-pulverisateur-automatise","Veille_technologique","h1. Veille technologique
+
+
+Le Target spray travaille sur une variété de technologies, spécialisé dans la détection, la pulvérisation et en automatisation. 
+Voici quelques solutions technologiques disponible dans le Target spray : 
+
+* Caméra RGB et multispectrales : Ce sont des caméras qui détectent les différences de couleur et de réflectance entre les cultures et les mauvaises herbes, même dans les conditions de faible luminosité ( Nuit ).
+Lien internet : https://fr.wikipedia.org/wiki/Cam%C3%A9ra_multispectrale
+
+Fonctionnement :        
+      Plante vers ==> 
+          
+    Caméra RGB          
+  Capteur rouge      
+  Capteur vert     
+  Capteur bleu    
+
+           
+        +   
+
+  Traitement d'image    
+ - Analyse spectrale    
+ - Détection de couleurs
+ - Mesures biométriques 
+
+       =   
+
+  Interprétation        
+ - État de santé        
+ - Stade de croissance  
+ - Besoins nutritifs    
+Source : Perplexity
+
+*  Vision artificielle et intelligence artificielle : Ce sont des modèles de deep learning comme YOLOv5, permettant une identification rapide et précise des mauvaises herbes ou des cibles spécifique en temps réel.
+Lien internet : https://fr.wikipedia.org/wiki/Intelligence_artificielle
+!{width: 600px}ia_image1.png!
+Source : https://www.officiel-prevention.com/dossier/protections-collectives-organisation-ergonomie/logiciels-applications-de-securite/la-prevention-des-risques-professionnels-de-lintelligence-artificielle
+
+Deep learning : C'est une option de l'intelligence artificielle qui utilise des réseaux neuronaux artificiels complexes pour traiter et analyser des données. Il s'agit d'une évolution des méthodes d'apprentissage machine traditionnelles, avec des capacités accrues pour gérer des volumes massifs de données et des structures complexes.
+Lien internet : https://theconversation.com/deep-learning-des-reseaux-de-neurones-pour-traiter-linformation-76055?gad_source=1&gclid=Cj0KCQiA3sq6BhD2ARIsAJ8MRwVwfhPaq0PdrnI9p2vlhBfnchrjzziUTtmGV_YGt2B7P5x8KM_BT3gaAgJxEALw_wcB
+
+ Acquisition                Traitement                Analyse et      
+  d'image        -->      par deep learning|   -->    décision        
+
+                                                          
+      
+   
+
+ - Caméras haute        - Réseaux de             - Détection de   
+   résolution            neurones                maladies       
+ - Positionnement       - Segmentation           - Identification 
+  stratégique          - Classification          d'adventices   
+- Capture              - Reconnaissance        - Évaluation de  
+   continue               de formes               croissance 
+Source : Perplexity
+
+YOLO : (You Only Look Once ) est une version d’un modèle de vision par ordinateur utilisé pour la détection d'objets. Il appartient à la famille des modèles YOLO, réputés pour leur vitesse et leur précision dans l'identification et la localisation d'objets dans des images ou des vidéos en temps réel. 
+Lien internet : https://docs.ultralytics.com/fr/yolov5/tutorials/architecture_description/
+
+Type de capteur :
+
+* Détection infrarouge : Ils est utilisé pour les pulvérisateurs automatiques dans les vergers, cette technologie aide à identifier les plantes grâce à leur signature thermique. 
+Lien internet : https://fr.wikipedia.org/wiki/D%C3%A9tecteur_infrarouge
+!{width: 600px}CapteurInfrarouge.png!
+Source : https://www.researchgate.net/figure/Detection-precoce-de-plants-en-stress-hydrique-par-thermographie-infrarouge_fig26_304347274
+Le capteur à détection infrarouge analyse les besoins de la plante selon une certaines couleur de thermographie qui permet de connaitre ces besoins. 
+
+* LIDAR : (Light détection and Ranging ) Ils analysent en 3D les contours des cibles, souvent utilisé dans les vergers pour pulvériser sur des arbres.
+Lien internet : https://fr.wikipedia.org/wiki/D%C3%A9tecteur_infrarouge
+!{width: 600px}Lidar.png!
+Source : https://www.usinenouvelle.com/editorial/ce-lidar-analyse-a-distance-la-sante-des-vegetaux-pour-augmenter-les-rendements-agricoles.N2205853
+Grâce au capteur Lidar on peut observer la santé des vignes, à gauche en bonne santé et à droite en mauvaise santé.
+
+* Pulvérisateurs intelligents pour les vergers :  Ce sont des systèmes qui intègrent des capteurs infrarouges et des algorithmes de profilage pour s'adapter à la forme et à la taille des arbres.
+
+* Détection spectrale hyperspectral : Ils fournit des informations détaillées sur la santé des plantes et permet de cibler avec précision les zones infectées. 
+Lien internet : http://www.sfpt.fr/hyperspectral/?page_id=168#:~:text=L'imagerie%20hyperspectrale%20permet%20de,d%C3%A9pend%20de%20leur%20composition%20chimique.
+!{width: 600px}Hyperspectral.jpg!
+Source : https://www.sciencedirect.com/science/article/pii/S1537511017302635
+Grâce à la détection spectrale hyperspectral, la caméra et la lumières naturelle analyse la plante et les feuilles afin de connaitre précisément l'état de santé de la plante. 
+
+* Capteurs ultrasonique : Émettent des ondes sonores pour mesurer les distances et identifier des obstacles ou des plantes. Souvent utilisés pour des applications à faible coût ou dans des environnements où la vision peut être obstruée.
+Lien internet : https://www.microsonic.de/fr/support/capteurs-%C3%A0-ultrasons/principe.htm
+!{width: 600px}ultrasons.jpg!
+Source : https://arduino.blaisepascal.fr/capteur-de-distance-a-ultrasons/
+En émettant une onde sonore, la caméra recoit à nouveau l'onde sonore, cela lui permet de connaitre la distance entre la rampe et les plantes.
+
+* Capteurs de spectroscopie : Spectromètres proches infrarouges (NIR) : Analyse les plantes pour identifier les espèces et leur état de santé.
+Capteurs de fluorescence : Détectent la fluorescence chlorophyllienne pour évaluer la santé des plantes et identifier les zones stressées.
+Lien internet : https://bionef.fr/produit/le-monitoring-pam/
+
+Capteur pour réaliser la pulvérisation : 
+
+* Capteurs chimiques et environnementaux : Capteurs d’humidité : Mesurent l’humidité ambiante pour ajuster la pulvérisation afin d’éviter les pertes dues à l’évaporation.
+Capteurs de vent : Évaluent la direction et la vitesse du vent pour éviter la dérive des produits chimiques.
+
+Ces capteurs sont souvent combinés dans des systèmes hybrides pour améliorer la précision et la fiabilité de la pulvérisation ciblée, même dans des environnements agricoles complexes.
+
+* Carbon Bee : SmartstrikerX, est composé d'un capteur x, d'un contrôleur x, et d'un isobus VT. 
+Elle a différent mode de détection : 
+*  Vert sur marron 
+* Vert sur vert 
+
+Et elle a différent mode de pulvérisation :
+*  Pulvérisation localisée
+* Pulvérisation à double débit
+* Pulvérisation modulante 
+
+Les capteurs SmartstrikerX, détecte les mauvaises herbes, cultures ou maladies à 3 mètres devant la rampe. elle génère une carte en temps réel des mauvaises herbes et des cultures avec détection, pulvérisation, dose appliquée et sauvegarde des produits chimiques. On peut donc grâce à la carte faire de la pulvérisation par pulvérisation localisée, bi dose ou modulation du débit. 
+
+Lien internet : 
+
+https://carbonbee.fr/
+https://docs.ultralytics.com/models/yolo11/
+https://github.com/ultralytics/ultralytics
+https://universe.roboflow.com/
+https://www.youtube.com/watch?v=SILmGmR6S_8
+https://colab.research.google.com/
+materiel : Raspberry Pi 5 (Raspbian 64bit Bookworm), Camera V3
+
+
+
+
+
+Bibliographie :
+
+https://www.researchgate.net/journal/Frontiers-in-Plant-Science-1664-462X/publication/366400762_Design_of_field_real-time_target_spraying_system_based_on_improved_YOLOv5/links/667c00b48408575b838afcd1/Design-of-field-real-time-target-spraying-system-based-on-improved-YOLOv5.pdf?_tp=eyJjb250ZXh0Ijp7ImZpcnN0UGFnZSI6InB1YmxpY2F0aW9uIiwicGFnZSI6InB1YmxpY2F0aW9uRG93bmxvYWQiLCJwcmV2aW91c1BhZ2UiOiJwdWJsaWNhdGlvbiJ9fQ
+
+https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2021.753603/pdf?isPublishedV2=false
+
+"
+"agriten_002-groupe-3-pulverisateur-automatise","Wiki","h1. Target Spray
+
+!BancDemonstrateur.jpg!
+
+h2. Contexte
+
+Dans un monde où les enjeux environnementaux et la sécurité alimentaire sont de plus en plus pressants, l’agriculture doit évoluer vers des pratiques plus durables. La pulvérisation localisée émerge comme une technique innovante qui permet d'optimiser l'utilisation des intrants phytosanitaires.
+
+Cette méthode consiste à appliquer des produits de protection des cultures uniquement sur les zones ciblées qui en ont besoin, plutôt que sur l'ensemble de la parcelle.
+
+h2. Problématique
+
+Comment développer des technologies de pulvérisation ciblée, combinant précision et accessibilité, pour réduire l'impact environnemental des intrants agricoles tout en répondant aux contraintes économiques et à la contraintes de transport ?
+
+h2. Projet
+
+Le projet a pour but de concevoir un prototype qui mettrait en évidence le fonctionnement de la pulvérisation localisée qui est indispensable pour une pulvérisation de précision.
+
+h2. Besoins
+
+Le target spray permet la réduction des produits phytosanitaires car on applique le produits à des zones ciblées.
+Il y a aussi un impact économique car on applique du produits à des zones ciblées et pas dans la parcelle entières.
+
+h1. [[Planification]]
+
+h1. [[Contraintes]]
+
+h1. [[Cahier des charges]]
+
+h1. [[Veille concurrentielle]]
+
+h1. [[Veille technologique]]
+
+h1. [[Conception banc de démonstration]]
+
+h1. [[Entrainement d'une intelligence artificielle]]
+
+h1. [[Budget]]
+
+h1. [[Solutions Techniques]]
+
+h1. [[Code python et logiciel]]
+
+h1. [[Modification pour Salon/expo]] (Par AgriLab)
+
+h2. Crédits
+
+Projet réalisé par des étudiants AgriTEC Promo 002 :
+Robin Tournemolle
+Paul Tourneur
+Etienne Bontemps
+Maxence Petit
+Baptiste Colson"

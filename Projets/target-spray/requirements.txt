@@ -1,0 +1,6 @@
+ultralytics
+opencv-python
+numpy
+gpiozero
+matplotlib
+picamera2; platform_machine == "aarch64"

@@ -1,0 +1,1 @@
+!yolo task=detect mode=train model=yolo11s.pt data=/content/weed-5/data.yaml epochs=70 imgsz=410 plots=True
