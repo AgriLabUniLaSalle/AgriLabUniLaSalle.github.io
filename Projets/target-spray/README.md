@@ -1,3 +1,8 @@
+---
+layout: page
+title: Target Spray
+---
+
 # Target Spray
 
 ![BancDemonstrateur](../target-spray/assets/images/BancDemonstrateur.jpg)
