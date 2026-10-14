@@ -1,6 +1,6 @@
 # Target Spray
 
-![BancDemonstrateur](../assets/images/BancDemonstrateur.jpg)
+![BancDemonstrateur](../target-spray/assets/images/BancDemonstrateur.jpg)
 
 ## Contexte
 
