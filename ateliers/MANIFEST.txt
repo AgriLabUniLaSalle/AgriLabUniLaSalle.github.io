@@ -1,0 +1,3 @@
+pages=11
+images_locales_referencees=43
+pages_manquantes=0

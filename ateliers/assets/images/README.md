@@ -1,0 +1,47 @@
+# Images attendues
+
+Placez dans ce dossier les images exportées depuis Redmine :
+
+- `9681563.jpg`
+- `abbaque-percage.gif`
+- `arduino.jpg`
+- `blink_fritzing.png`
+- `blink_schematic.png`
+- `cameo_vectorisation.png`
+- `Capture1.PNG`
+- `Capture10.PNG`
+- `Capture2.PNG`
+- `Capture20.PNG`
+- `Capture3.PNG`
+- `Capture30.PNG`
+- `Capture31.PNG`
+- `Capture32.PNG`
+- `Capture33.PNG`
+- `Capture34.PNG`
+- `Capture4.PNG`
+- `Capture5.PNG`
+- `Capture6.PNG`
+- `Capture8.PNG`
+- `Capture9.PNG`
+- `chocolat01.jpg`
+- `chocolat02.jpg`
+- `chocolat03.jpg`
+- `chocolat04.jpg`
+- `chocolat05.jpg`
+- `detail.png`
+- `DSC_0088.JPG`
+- `halftone.png`
+- `hershey.jpg`
+- `hershey0.jpg`
+- `hershey2.jpg`
+- `hershey3.jpg`
+- `inkscape-002b_ellipse.png`
+- `muble01.jpg`
+- `muble02.jpg`
+- `muble03.jpg`
+- `muble04.jpg`
+- `muble05.jpg`
+- `vinyle01.jpg`
+- `vinyle02.jpg`
+- `vinyle03.jpg`
+- `vinyle04.jpg`

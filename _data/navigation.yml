@@ -18,11 +18,39 @@
 
 - name: Ateliers
   link :
-  dropdown: 
-    - name: Inkscape dessin 2D
-      link: /ateliers/inkscape
-    - name: Conception Assistée par Ordinateur
-      link: /ateliers/CAO
+  dropdown:
+  - name: Inkscape, dessin 2D
+    link: /ateliers/2d-inkscape
+
+  - name: Abaque et informations sur la découpeuse plasma
+    link: /ateliers/abaque-et-infos-decoupeuse-plasma
+
+  - name: Atelier Brodeuse numérique
+    link: /ateliers/atelier-brodeuse-numerique
+
+  - name: Atelier d’introduction
+    link: /ateliers/atelier-d-introduction
+
+  - name: Atelier Découpeuse laser
+    link: /ateliers/atelier-decoupeuse-laser
+
+  - name: Atelier Découpeuse vinyle et presse à chaud
+    link: /ateliers/atelier-decoupeuse-vinyle-et-presse-a-chaud
+
+  - name: Introduction à Arduino
+    link: /ateliers/introduction-arduino
+
+  - name: Techniques CNC
+    link: /ateliers/techniques-cnc
+
+  - name: Tutoriel et informations complémentaires sur la brodeuse
+    link: /ateliers/tutoriel-et-information-complementaire-brodeuse
+
+  - name: Tutoriel Presse à chaud
+    link: /ateliers/tutoriel-presse-a-chaud
+
+  - name: Vitesses de perçage
+    link: /ateliers/vitesse-percage
 
 
 
