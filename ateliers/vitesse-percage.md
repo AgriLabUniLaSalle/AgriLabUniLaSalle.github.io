@@ -18,8 +18,8 @@ Pour percer des trous d’un diamètre supérieur à 5/6 mm dans de la tôle min
 
 Pour percer des trous dans le bois, utiliser les mèches avec pointe de centrage et coupe fibres (3 pointes !) ou les mèches plates. La vitesse sera adaptée de manière à ce que les copeaux ne brulent et n’adhèrent sur les tranchants de la mèche.
 
-![abbaque-percage](assets/images/abbaque-percage.gif)
+![abbaque-percage](/ateliers/assets/images/abbaque-percage.gif)
 
 ---
 
-[← Retour à l’index](README.md)
+[← Retour aux ateliers](/ateliers/)

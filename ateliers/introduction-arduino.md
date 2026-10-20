@@ -2,7 +2,7 @@
 
 1. Introduction Arduino
 
-<img src="assets/images/arduino.jpg" alt="arduino" width="300">
+<img src="/ateliers/assets/images/arduino.jpg" alt="arduino" width="300">
 
 Site principal : [https://www.arduino.cc](https-www-arduino-cc.md)
 
@@ -37,10 +37,10 @@ void loop() {
 
 Schémat électronique correspondant
 
-<img src="assets/images/blink_schematic.png" alt="blink schematic" width="300">
+<img src="/ateliers/assets/images/blink_schematic.png" alt="blink schematic" width="300">
 
-<img src="assets/images/blink_fritzing.png" alt="blink fritzing" width="300">
+<img src="/ateliers/assets/images/blink_fritzing.png" alt="blink fritzing" width="300">
 
 ---
 
-[← Retour à l’index](README.md)
+[← Retour aux ateliers](/ateliers/)

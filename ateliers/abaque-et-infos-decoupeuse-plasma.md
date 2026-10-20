@@ -2,7 +2,7 @@
 
 1. Abaque et infos découpeuse plasma
 
-<img src="http://agrilab.unilasalle.fr/projets/attachments/download/656/Hypertherm%20Powermax%2045%20XP.jpg" alt="Hypertherm%20Powermax%2045%20XP" width="300">
+<img src="/ateliers/assets/images/Hypertherm Powermax 45 XP.jpg" alt="Hypertherm%20Powermax%2045%20XP" width="300">
 
 Capacité de coupe :
 Recommandée :12 mm (1/2 po) à 500 mm/min (20 po/min)
@@ -35,4 +35,4 @@ Aluminium 	cal. 10 	3 	45 	280 	7112
 
 ---
 
-[← Retour à l’index](README.md)
+[← Retour aux ateliers](/ateliers/)

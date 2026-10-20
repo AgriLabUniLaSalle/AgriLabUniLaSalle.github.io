@@ -18,4 +18,4 @@ Pages Markdown converties depuis l’export du wiki Redmine `wiki-agrilab`.
 
 ## Images
 
-Les images référencées par les pages doivent être placées dans `assets/images/` en conservant leur nom d’origine. La liste complète se trouve dans `assets/images/README.md`.
+Les images référencées par les pages doivent être placées dans `/ateliers/assets/images/` en conservant leur nom d’origine. La liste complète se trouve dans `/ateliers/assets/images/README.md`.

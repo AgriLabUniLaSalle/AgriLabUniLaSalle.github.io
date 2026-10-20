@@ -65,4 +65,4 @@ AgriLab n'est en aucun cas responsable de ce qui est fait dans la partie OpenLab
 
 ---
 
-[← Retour à l’index](README.md)
+[← Retour aux ateliers](/ateliers/)

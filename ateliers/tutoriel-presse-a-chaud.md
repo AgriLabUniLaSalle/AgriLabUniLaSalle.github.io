@@ -29,4 +29,4 @@ Attention : l'objet est brûlant !!!
 
 ---
 
-[← Retour à l’index](README.md)
+[← Retour aux ateliers](/ateliers/)

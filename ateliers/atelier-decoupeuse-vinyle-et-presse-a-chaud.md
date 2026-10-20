@@ -7,7 +7,7 @@
 Dans la partie DESIGN :
 -	L’image doit être vectorisée
 >>>>o	Sélection de l’image
->>>>o	Clic sur  ![cameo vectorisation](assets/images/cameo_vectorisation.png)
+>>>>o	Clic sur  ![cameo vectorisation](/ateliers/assets/images/cameo_vectorisation.png)
 >>>>o	Ajustement des seuils pour avoir l’image la plus nette possible (sans point pixelisé)
 -	*Si texte : bien penser à le retourner (clic droit --> miroir horizontal)*
 Dans la partie ENVOYER :
@@ -48,4 +48,4 @@ Puis clic sur « envoyer » uniquement quand la CAMEO est prête (vinyle chargé
 
 ---
 
-[← Retour à l’index](README.md)
+[← Retour aux ateliers](/ateliers/)

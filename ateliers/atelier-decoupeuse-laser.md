@@ -34,20 +34,20 @@ Mode Engrave : Le laser parcourt la surface
 
 Prérequis:
 - Pixel vs vecteur
-![vector-vs-bitmap](http://agrilab.unilasalle.fr/projets/attachments/download/1304/vector-vs-bitmap.gif)
-<img src="http://agrilab.unilasalle.fr/projets/attachments/download/1305/Bezier_curve.png" alt="Bezier curve" width="400">
+![vector-vs-bitmap](/ateliers/assets/images/vector-vs-bitmap.gif)
+<img src="/ateliers/assets/images/Bezier_curve.png" alt="Bezier curve" width="400">
 
 Point importants :
 - Chemin du laser : tube, miroir, lentille
-![optics path](http://agrilab.unilasalle.fr/projets/attachments/download/1303/optics_path.jpg)
+![optics path](/ateliers/assets/images/optics_path.jpg)
 - Fonctionnement lentille focale : importance de la mise au point, matériel plane, limitation d'épaisseur
-<img src="http://agrilab.unilasalle.fr/projets/attachments/download/1300/Focal-length-a.png" alt="Focal-length-a" width="400">
-![non-focus](http://agrilab.unilasalle.fr/projets/attachments/download/1302/non-focus.jpg)
-<img src="http://agrilab.unilasalle.fr/projets/attachments/download/1299/epaisseur-materiel.jpg" alt="epaisseur-materiel" width="400">
+<img src="/ateliers/assets/images/Focal-length-a.png" alt="Focal-length-a" width="400">
+![non-focus](/ateliers/assets/images/non-focus.jpg)
+<img src="/ateliers/assets/images/epaisseur-materiel.jpg" alt="epaisseur-materiel" width="400">
 - Les différents éléments et pourquoi : compresseur air, refroidissement à eau, extraction fumée
 - Longueur d'onde et absorption des matériaux -> ne fonctionne pas avec métal. Notion gravure/découpe
 - Notion de Kerf : assemblage et dimensions
-![kerf](http://agrilab.unilasalle.fr/projets/attachments/download/1301/kerf.png)
+![kerf](/ateliers/assets/images/kerf.png)
 - Pas de compensation d'outil
 - Test systématique de puissance et vitesse
 - Ordre de découpe
@@ -60,4 +60,4 @@ Matériaux strictement interdits = Expulsion immédiate et définitive sans reco
 
 ---
 
-[← Retour à l’index](README.md)
+[← Retour aux ateliers](/ateliers/)
