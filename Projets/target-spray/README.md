@@ -1,6 +1,11 @@
+---
+layout: page
+title: Target Spray
+---
+
 # Target Spray
 
-![BancDemonstrateur](../assets/images/BancDemonstrateur.jpg)
+![BancDemonstrateur](../target-spray/assets/images/BancDemonstrateur.jpg)
 
 ## Contexte
 
@@ -51,47 +56,3 @@ Paul Tourneur
 Etienne Bontemps
 Maxence Petit
 Baptiste Colson
-
-## Documentation complète
-
-- [Besoins](docs/besoins.md)
-- [Budget](docs/budget.md)
-- [Cahier des charges](docs/cahier-des-charges.md)
-- [Code python et logiciel](docs/code-python-et-logiciel.md)
-- [Conception banc de démonstration](docs/conception-banc-de-demonstration.md)
-- [Contexte](docs/contexte.md)
-- [Contraintes](docs/contraintes.md)
-- [Création d'un dataset via Roboflow](docs/creation-d-un-dataset-via-roboflow.md)
-- [Entrainement d'une intelligence artificielle](docs/entrainement-d-une-intelligence-artificielle.md)
-- [Justification de nos choix](docs/justification-de-nos-choix.md)
-- [Le projet](docs/le-projet.md)
-- [Modification pour Salonexpo](docs/modification-pour-salonexpo.md)
-- [Planification](docs/planification.md)
-- [Répartition des tâches](docs/repartition-des-taches.md)
-- [Solutions Technique](docs/solutions-technique.md)
-- [Solutions Techniques](docs/solutions-techniques.md)
-- [Veille concurrentielle](docs/veille-concurrentielle.md)
-- [Veille convoyeur](docs/veille-convoyeur.md)
-- [Veille technologique](docs/veille-technologique.md)
-
-## Structure du dépôt
-
-```text
-target-spray/
-├── README.md
-├── docs/
-├── assets/
-│   ├── images/
-│   └── models/
-├── notebooks/
-├── scripts/
-└── data/
-```
-
-## Ressources non incluses
-
-Les images, le modèle `.pt` et le notebook référencés par le wiki ne se trouvaient pas dans le CSV. Les dossiers prévus sont présents et la liste des fichiers attendus se trouve dans `assets/images/README.md`.
-
-## Licence
-
-Aucune licence de réutilisation n'était indiquée dans les données sources. Voir `LICENSE`.

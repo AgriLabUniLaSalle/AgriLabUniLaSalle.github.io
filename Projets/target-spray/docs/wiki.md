@@ -1,3 +1,10 @@
+---
+layout: page
+title: Target Spray
+menubar_toc: true
+toc_title: INDEX
+---
+
 # Target Spray
 
 ![BancDemonstrateur](../assets/images/BancDemonstrateur.jpg)
