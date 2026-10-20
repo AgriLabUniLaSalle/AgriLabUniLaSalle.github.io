@@ -1,272 +1,127 @@
----
-layout: default
-title: Inkscape et dessin 2D
-description: Découvrir les principales opérations d’Inkscape et les extensions utiles pour la découpe laser.
-permalink: /ateliers/2d-inkscape/
----
+# 2D Inkscape
 
-# Inkscape et dessin 2D
+1. 2D Inkscape
 
-**Inkscape** est un logiciel libre de dessin vectoriel. Il permet de créer et de modifier des fichiers adaptés à la découpe laser, à la découpe vinyle, à la gravure et à certaines opérations d’usinage CNC.
+https://inkscape.org/
 
-[Accéder au site officiel d’Inkscape](https://inkscape.org/){: .btn .btn-primary }
+quelques opérations
 
-## Sommaire
+cercle
 
-- #opérations-de-base
-- #applications-en-fabrication-numérique
-- #extensions-pour-la-découpe-laser
-- #créer-des-effets-de-trame
-- #ressources-complémentaires
+<img src="/ateliers/assets/images/inkscape-002b_ellipse.png" alt="inkscape-002b ellipse" width="300">
 
----
+<img src="/ateliers/assets/images/inkscape-002_ellipse.png" alt="inkscape-002 ellipse" width="300">
 
-## Opérations de base
+Faire des courbes de beziers
 
-### Créer un cercle ou une ellipse
+<img src="/ateliers/assets/images/inkscape-003b_curve.png" alt="inkscape-003b curve" width="300">
 
-L’outil **Cercle et ellipse** permet de dessiner des formes circulaires, des ellipses et des arcs.
+<img src="/ateliers/assets/images/inkscape-003_curve.png" alt="inkscape-003 curve" width="300">
 
-<table>
-  <tr>
-    <td align="center">
-      /ateliers/assets/images/inkscape-002b_ellipse.png
-      <br>
-      <em>Création d’une ellipse</em>
-    </td>
-    <td align="center">
-      /ateliers/assets/images/inkscape-002_ellipse.png
-      <br>
-      <em>Résultat obtenu</em>
-    </td>
-  </tr>
-</table>
+Dissocier des éléments
 
----
+<img src="/ateliers/assets/images/inkscape-004_break_appart.png" alt="inkscape-004 break appart" width="300">
 
-### Créer des courbes de Bézier
+<img src="/ateliers/assets/images/inkscape-004b_break_appart.png" alt="inkscape-004b break appart" width="300">
 
-L’outil **Courbes de Bézier** permet de créer des tracés droits ou courbes à partir d’une succession de points.
+opération d'union de 2 courbes
 
-<table>
-  <tr>
-    <td align="center">
-      /ateliers/assets/images/inkscape-003b_curve.png
-      <br>
-      <em>Création du tracé</em>
-    </td>
-    <td align="center">
-      /ateliers/assets/images/inkscape-003_curve.png
-      <br>
-      <em>Modification des nœuds</em>
-    </td>
-  </tr>
-</table>
+<img src="/ateliers/assets/images/inkscape-005_union.png" alt="inkscape-005 union" width="300">
 
----
+<img src="/ateliers/assets/images/inkscape-005b_union.png" alt="inkscape-005b union" width="300">
 
-### Dissocier des éléments
+opération de différences de 2 courbes
 
-La commande **Dégrouper** permet de séparer les objets qui ont précédemment été regroupés.
+<img src="/ateliers/assets/images/inkscape-006_difference.png" alt="inkscape-006 difference" width="300">
 
-<table>
-  <tr>
-    <td align="center">
-      /ateliers/assets/images/inkscape-004_break_appart.png
-      <br>
-      <em>Avant la séparation</em>
-    </td>
-    <td align="center">
-      /ateliers/assets/images/inkscape-004b_break_appart.png
-      <br>
-      <em>Après la séparation</em>
-    </td>
-  </tr>
-</table>
+<img src="/ateliers/assets/images/inkscape-006b_difference.png" alt="inkscape-006b difference" width="300">
 
----
+## 2D
 
-### Réaliser l’union de deux formes
+Découpe Vinyle :
 
-L’opération **Union** fusionne plusieurs formes en un seul objet vectoriel.
+<img src="/ateliers/assets/images/vinyle01.jpg" alt="vinyle01" width="300">
 
-> Sélectionnez les formes, puis utilisez **Chemin → Union**.
+<img src="/ateliers/assets/images/vinyle02.jpg" alt="vinyle02" width="300">
 
-<table>
-  <tr>
-    <td align="center">
-      /ateliers/assets/images/inkscape-005_union.png
-      <br>
-      <em>Formes initiales</em>
-    </td>
-    <td align="center">
-      /ateliers/assets/images/inkscape-005b_union.png
-      <br>
-      <em>Résultat de l’union</em>
-    </td>
-  </tr>
-</table>
+<img src="/ateliers/assets/images/vinyle03.jpg" alt="vinyle03" width="300">
 
----
+<img src="/ateliers/assets/images/vinyle04.jpg" alt="vinyle04" width="300">
 
-### Réaliser la différence entre deux formes
+Fraisage / Moulage :
 
-L’opération **Différence** soustrait la forme placée au-dessus de celle située en dessous.
+<img src="/ateliers/assets/images/chocolat01.jpg" alt="chocolat01" width="300">
 
-> Sélectionnez les deux formes, puis utilisez **Chemin → Différence**.
+<img src="/ateliers/assets/images/chocolat02.jpg" alt="chocolat02" width="300">
 
-<table>
-  <tr>
-    <td align="center">
-      /ateliers/assets/images/inkscape-006_difference.png
-      <br>
-      <em>Formes initiales</em>
-    </td>
-    <td align="center">
-      /ateliers/assets/images/inkscape-006b_difference.png
-      <br>
-      <em>Résultat de la différence</em>
-    </td>
-  </tr>
-</table>
+<img src="/ateliers/assets/images/chocolat03.jpg" alt="chocolat03" width="300">
 
----
+<img src="/ateliers/assets/images/chocolat04.jpg" alt="chocolat04" width="300">
 
-## Applications en fabrication numérique
+<img src="/ateliers/assets/images/chocolat05.jpg" alt="chocolat05" width="300">
 
-Inkscape permet de préparer des fichiers pour différentes machines du FabLab :
+Fraisage :
 
-- découpeuse vinyle ;
-- découpeuse laser ;
-- fraiseuse CNC ;
-- graveuse ;
-- machine de découpe pilotée numériquement.
+<img src="/ateliers/assets/images/muble01.jpg" alt="muble01" width="300">
 
-### Découpe vinyle
+<img src="/ateliers/assets/images/muble03.jpg" alt="muble03" width="300">
 
-La découpe vinyle permet de produire des autocollants, des marquages, des pochoirs et des éléments destinés au flocage textile.
+<img src="/ateliers/assets/images/muble04.jpg" alt="muble04" width="300">
 
-<table>
-  <tr>
-    <td align="center">
-      /ateliers/assets/images/vinyle01.jpg
-    </td>
-    <td align="center">
-      /ateliers/assets/images/vinyle02.jpg
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      /ateliers/assets/images/vinyle03.jpg
-    </td>
-    <td align="center">
-      /ateliers/assets/images/vinyle04.jpg
-    </td>
-  </tr>
-</table>
+<img src="/ateliers/assets/images/muble05.jpg" alt="muble05" width="300">
 
----
+<img src="/ateliers/assets/images/muble02.jpg" alt="muble02" width="300">
 
-### Fraisage et moulage
-
-Un dessin vectoriel peut également servir à préparer un usinage destiné à fabriquer un moule.
-
-<table>
-  <tr>
-    <td align="center">
-      /ateliers/assets/images/chocolat01.jpg
-    </td>
-    <td align="center">
-      /ateliers/assets/images/chocolat02.jpg
-    </td>
-    <td align="center">
-      /ateliers/assets/images/chocolat03.jpg
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      /ateliers/assets/images/chocolat04.jpg
-    </td>
-    <td align="center">
-      /ateliers/assets/images/chocolat05.jpg
-    </td>
-    <td></td>
-  </tr>
-</table>
-
----
-
-### Fraisage de mobilier
-
-Les fichiers vectoriels peuvent servir à concevoir des pièces de mobilier découpées ou fraisées sur une machine CNC.
-
-<table>
-  <tr>
-    <td align="center">
-      /ateliers/assets/images/muble01.jpg
-    </td>
-    <td align="center">
-      /ateliers/assets/images/muble02.jpg
-    </td>
-    <td align="center">
-      /ateliers/assets/images/muble03.jpg
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      /ateliers/assets/images/muble04.jpg
-    </td>
-    <td align="center">
-      /ateliers/assets/images/muble05.jpg
-    </td>
-    <td></td>
-  </tr>
-</table>
-
----
-
-## Extensions pour la découpe laser
-
-Certaines extensions ajoutent à Inkscape des fonctions utiles pour la gravure, la création de boîtes et la préparation des fichiers de découpe laser.
+## Inkscape-plugins spécifique laser :
 
 ### Hershey Text
 
-**Hershey Text** permet de générer du texte composé de lignes simples. Ce type de tracé est particulièrement adapté à la gravure laser, car il évite de graver deux fois le contour d’un caractère.
+Hershey Text : https://www.evilmadscientist.com/2011/hershey-text-an-inkscape-extension-for-engraving-fonts/
 
-[Découvrir l’extension Hershey Text](https://www.evilmadscientist.com/2011/hershey-text-an-inkscape-extension-for-engraving-fonts/)
+Texte:
+<img src="/ateliers/assets/images/hershey.jpg" alt="hershey" width="300">
+<img src="/ateliers/assets/images/hershey2.jpg" alt="hershey2" width="300">
+<img src="/ateliers/assets/images/hershey3.jpg" alt="hershey3" width="300">
+<img src="/ateliers/assets/images/hershey0.jpg" alt="hershey0" width="300">
 
-<table>
-  <tr>
-    <td align="center">
-      /ateliers/assets/images/hershey.jpg
-    </td>
-    <td align="center">
-      /ateliers/assets/images/hershey2.jpg
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      /ateliers/assets/images/hershey3.jpg
-    </td>
-    <td align="center">
-      /ateliers/assets/images/hershey0.jpg
-    </td>
-  </tr>
-</table>
+### BoxMaker
+
+BoxMaker plugin for Inkscape : https://github.com/paulh-rnd/TabbedBoxMaker
+
+installation :
+```text
+_## Installation
+Boxmaker.inx, Schroffmaker.inx and Boxmaker.py need to be put in the inkscape extensions folder generally in:
+
+`...\Inkscape\share\extensions `
+
+or linux:
+
+`usr/.../Inkscape/share/extensions`
+
+(NOTE: you need to make boxmaker.py executable)_
+```
+
+### Eliptical Box Maker
+
+Eliptical Box Maker plugin for Inkscape : https://github.com/BvdP/elliptical-box-maker
+
+### Vectorize plugin
+
+Vectorize plugin laser oriented for Inkscape : https://github.com/fablabnbg/inkscape-centerline-trace
+
+Pour éviter d'avoir un "double trait" lors de la vectorisation.
+
+### Halftone et moiré
+
+https://xoihazard.com/tools/halftone/
+
+![9681563](/ateliers/assets/images/9681563.jpg)
+
+![halftone](/ateliers/assets/images/halftone.png)
+
+![detail](/ateliers/assets/images/detail.png)
 
 ---
 
-### Tabbed Box Maker
-
-**Tabbed Box Maker** génère automatiquement les plans d’une boîte assemblée par tenons et mortaises.
-
-[Télécharger Tabbed Box Maker](https://github.com/paulh-rnd/TabbedBoxMaker)
-
-#### Installation
-
-Copiez les fichiers suivants dans le dossier des extensions d’Inkscape :
-
-```text
-Boxmaker.inx
-Schroffmaker.inx
-Boxmaker.py
+[← Retour aux ateliers](/ateliers/)
