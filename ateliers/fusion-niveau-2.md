@@ -5,10 +5,6 @@ description: "Préparation des opérations d’usinage CNC avec Autodesk Fusion.
 permalink: /ateliers/fusion-niveau-2/
 ---
 
-<nav aria-label="Fil d’Ariane">
-  <a href="/">Accueil</a> · <a href="/ateliers/">Ateliers</a>
-</nav>
-
 # Fusion 360, niveau 2
 
 Ce second niveau est consacré au module **Manufacture** de Fusion et à la préparation de fichiers G-code pour l’usinage CNC.

@@ -15,9 +15,9 @@ Cette page présente les bases de la modélisation paramétrique avec **Autodesk
 
 
 
-Inscription pour étudiants : [https://www.autodesk.com/education/free-software/featured]
+[https://www.autodesk.com/education/free-software/featured](Inscription pour étudiants)
 
-Inscription pour utilisation personnelle : [https://www.autodesk.fr/products/fusion-360/overview?term=1-YEAR&tab=subscription#personal]
+[https://www.autodesk.fr/products/fusion-360/overview?term=1-YEAR&tab=subscription#personal](Inscription pour utilisation personnelle)
 
 ## Déroulé de l'atelier
 
