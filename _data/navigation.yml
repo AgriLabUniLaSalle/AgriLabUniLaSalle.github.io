@@ -29,8 +29,8 @@
     - name: Cintreuse à galets MC550 CNC Nargesa
       link: /machines/cintreuse-a-galets-mc550cnc-nargesa
 
-    - name: Découpe laser M-FILLASER ML-W1290-150W
-      link: /machines/decoupe-laser-millaser-ml-w1290-150w
+    - name: Découpe laser MLLASER ML-W1290-150W
+      link: /machines/decoupe-laser-mllaser-ml-w1290-150w
 
     - name: Découpe laser XTool F1 Ultra
       link: /machines/decoupe-laser-xtool-f1-ultra
