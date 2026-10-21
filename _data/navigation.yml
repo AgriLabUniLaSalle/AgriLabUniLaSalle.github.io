@@ -52,6 +52,12 @@
   - name: Vitesses de perçage
     link: /ateliers/vitesse-percage
 
+  - name: Fusion Niv.1
+    link: /ateliers/fusion-niveau-1
+  
+  - name: Fusion Niv.2
+    link: /ateliers/fusion-niveau-2
+
 - name: Projets
   link :
   dropdown: 
