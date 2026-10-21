@@ -15,9 +15,9 @@ Cette page présente les bases de la modélisation paramétrique avec **Autodesk
 
 
 
-[https://www.autodesk.com/education/free-software/featured](Inscription pour étudiants)
+[Inscription pour étudiants](https://www.autodesk.com/education/free-software/featured)
 
-[https://www.autodesk.fr/products/fusion-360/overview?term=1-YEAR&tab=subscription#personal](Inscription pour utilisation personnelle)
+[Inscription pour utilisation personnelle](https://www.autodesk.fr/products/fusion-360/overview?term=1-YEAR&tab=subscription#personal)
 
 ## Déroulé de l'atelier
 
@@ -51,11 +51,11 @@ Les modules usinage sont abordés dans un autre atelier
 
 Quelques tutoriels pour en apprendre plus:
 
-https://www.instructables.com/classes/tagged/cnc/
+[Projets CNC sur Instructables](https://www.instructables.com/classes/tagged/cnc/)
 
-https://academy.titansofcnc.com/
+[Titans of CNC](https://academy.titansofcnc.com/)
 
-https://courses.pocketnc.com/courses/Education-Course
+[Cours PocketNC](https://courses.pocketnc.com/courses/Education-Course)
 
 
 ---
