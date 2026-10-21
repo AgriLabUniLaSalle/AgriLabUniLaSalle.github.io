@@ -2,7 +2,8 @@
 Projet Redmine : Tutoriels
 Source : Question
 ID source : 21
-Section : Machines
+Categorie export : machines
+Section Redmine : Machines
 Derniere modification : 2019-09-11 16:31:24
 -->
 
