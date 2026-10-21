@@ -61,23 +61,20 @@ Quelques exemples réalisés pour montrer les principes essentiels :
 
 ![stool 2022-Dec-05 03-47-10PM-000 CustomizedView13427534726](/ateliers/assets/images/stool_2022-Dec-05_03-47-10PM-000_CustomizedView13427534726.png)
 
-[Pour télécharger le fichier du tabouret :](https://a360.co/3umA1rj) 
-[Le fichier d'usinage :](https://a360.co/3wdYO1t)
+[Pour télécharger le fichier du tabouret](https://a360.co/3umA1rj) 
+
+[Le fichier d'usinage](https://a360.co/3wdYO1t)
 
 ## Mobile book case
-
-Les fichiers 3D et d'usinage sont disponible en pied de page.
 
 ![Book-case-render](/ateliers/assets/images/Book-case-render.jpg) ![book-case-milling](/ateliers/assets/images/book-case-milling.jpg) ![book-case-20230526 100340](/ateliers/assets/images/book-case-20230526_100340.jpg) ![book-case-20230526 100400](/ateliers/assets/images/book-case-20230526_100400.jpg) ![book-case-20230526 100428](/ateliers/assets/images/book-case-20230526_100428.jpg) ![book-case-20230526 100436](/ateliers/assets/images/book-case-20230526_100436.jpg)
 
 ## CNC Milled Dinosaur
 
 ![e4d6e960-d565-4a77-aed3-3d31e6b83ba5](/ateliers/assets/images/e4d6e960-d565-4a77-aed3-3d31e6b83ba5.PNG)
-Fichiers de conception en bas de page.
 
 ---
 
 ## Navigation
 
 - [← Revenir à Fusion 360, niveau 1](/ateliers/fusion-niveau-1/)
-- [Retour à la liste des ateliers](/ateliers/)
