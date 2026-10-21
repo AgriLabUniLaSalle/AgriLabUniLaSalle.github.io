@@ -23,23 +23,23 @@ Cette page présente les bases de la modélisation paramétrique avec **Autodesk
 
 Logiciel paramétrique
 
-- Visualisation/interface
-- Sketch :
-> * Points/segments et contraintes
-> * Différents type de rectangle/cercles
-> * Dimensions
-- Paramétrique
-- Plans et axe
-- Opération create
-> * Extrusion
-> * Forme primitive
-> * Révolution
-> * (sweep/loft)
-- Opération modify (chamfer/fillet/...)
-- Autres opérations
-- historique
-- export DXF / STL
-- plugin slicer
+* Visualisation/interface
+* Sketch :
+* Points/segments et contraintes
+* Différents type de rectangle/cercles
+* Dimensions
+* Paramétrique
+* Plans et axe
+* Opération create
+* Extrusion
+* Forme primitive
+* Révolution
+* (sweep/loft)
+* Opération modify (chamfer/fillet/...)
+* Autres opérations
+* historique
+* export DXF / STL
+* plugin slicer
 
 Les modules usinage sont abordés dans un autre atelier
 
