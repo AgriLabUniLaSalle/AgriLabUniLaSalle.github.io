@@ -9,14 +9,115 @@
       link: /agritec/agritec3
 
 - name: Machines
-  link :
-  dropdown: 
+  link:
+  dropdown:
     - name: Imprimantes 3D
       link: /machines/imprimantes3D
+
     - name: Découpe Laser
       link: /machines/decoupeLaser
-    - name: Cnc Roland srm20
+
+    - name: CNC Roland SRM-20
       link: /machines/cnc-roland-srm-20-electronique
+
+    - name: Cabine de sablage PS-1500 Arenablast
+      link: /machines/cabine-de-sablage-ps-1500-arenablast
+
+    - name: Cintreuse à enroulement CC90 CNC Nargesa
+      link: /machines/cintreuse-a-enroulement-cc90cnc-nargesa
+
+    - name: Cintreuse à galets MC550 CNC Nargesa
+      link: /machines/cintreuse-a-galets-mc550cnc-nargesa
+
+    - name: Découpe laser M-FILLASER ML-W1290-150W
+      link: /machines/decoupe-laser-millaser-ml-w1290-150w
+
+    - name: Découpe laser XTool F1 Ultra
+      link: /machines/decoupe-laser-xtool-f1-ultra
+
+    - name: Découpeuse plasma CNC Linx CNC QTPlasma Mesa 7i96s
+      link: /machines/decoupeuse-plasma-cnc-linuxcnc-qtplasmac-mesa-7i96s
+
+    - name: Découpeuse plasma Hypertherm Powermax 45 XP
+      link: /machines/decoupeuse-plasma-hypertherm-powermax-45-xp
+
+    - name: Découpeuse vinyle Roland CAMM-1 GS-24
+      link: /machines/decoupeuse-vinyle-roland-camm-1-gs-24
+
+    - name: Découpeuse vinyle Silhouette Cameo 3
+      link: /machines/decoupeuse-vinyle-silhouette-cameo-3
+
+    - name: Fer à souder Weller WSB1
+      link: /machines/fer-a-souder-weller-wsb1
+
+    - name: Formlabs Cure
+      link: /machines/formlabs-cure
+
+    - name: Formlabs Stéréolithographie
+      link: /machines/formlabs-stereolithographie
+
+    - name: Formlabs Wash
+      link: /machines/formlabs-wash
+
+    - name: Four de refusion Bokar X-Reflow 306-LF-AC
+      link: /machines/four-reflow-pour-carte-electronique-bokar-x-reflow306-lf-ac
+
+    - name: Générateur de fonctions arbitraires RS Pro 50 MHz AFG-31051
+      link: /machines/generateur-de-fonctions-arbitraires-rs-pro-50mhz-afg-31051
+
+    - name: Générateur de fonctions RS Pro 3 MHz
+      link: /machines/generateur-de-fonctions-rs-pro-3mhz
+
+    - name: Grand routeur CNC 3 axes
+      link: /machines/grand-routeur-cnc-3-axes
+
+    - name: Imprimante 3D Creality CR-10 S5
+      link: /machines/imprimante-3d-creality-cr-10-s5
+
+    - name: Imprimante 3D Creality Ender 5 Plus
+      link: /machines/imprimante-3d-creality-ender-5-plus
+
+    - name: Imprimante 3D Formlabs 2
+      link: /machines/imprimante-3d-formlabs-2
+
+    - name: Imprimante 3D Prusa i3 MK3
+      link: /machines/imprimante-3d-prusa-i3-mk3
+
+    - name: Imprimante 3D Ultimaker 2 Go
+      link: /machines/imprimante-3d-ultimaker-2-go
+
+    - name: Imprimante 3D Ultimaker 3 Extended
+      link: /machines/imprimante-3d-ultimaker-3-extended
+
+    - name: Imprimante à sublimation Epson SC-F100
+      link: /machines/imprimante-encre-a-sublimation-epson-sc-f100
+
+    - name: Kemppi FastMig M 420
+      link: /machines/kemppi-fastmig-m-420
+
+    - name: Kemppi TIG
+      link: /machines/kemppi-tig
+
+    - name: Kit Dremel Platinum 4000
+      link: /machines/kit-dremmel-platinum-4000
+
+    - name: Machine à broder Brother
+      link: /machines/machine-a-broder-brother
+
+    - name: Machine pour stencil avec pâte à souder
+      link: /machines/machine-pour-stencil-avec-pate-a-souder
+
+    - name: Markforged Mark Two
+      link: /machines/markforged-mark-two
+
+    - name: Multimètre de table Keithley 2000
+      link: /machines/multimetre-de-table-keithley-2000
+
+    - name: Oscilloscope et analyseur logique Picoscope 6402C
+      link: /machines/oscilloscope-et-analyseur-logique-picoscope-6402c-connectable-pc-4-voies-250mhz
+
+    - name: Oscilloscope numérique Tektronix TBS1000
+      link: /machines/oscilloscope-numerique-tektronix-serie-tbs1000-numerique-2-voies-50mhz
 
 - name: Ateliers
   link :
