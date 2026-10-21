@@ -79,11 +79,6 @@ Les fichiers 3D et d'usinage sont disponible en pied de page.
 ![e4d6e960-d565-4a77-aed3-3d31e6b83ba5](/ateliers/assets/images/e4d6e960-d565-4a77-aed3-3d31e6b83ba5.PNG)
 Fichiers de conception en bas de page.
 
-### Remerciements:
-
-Ce projet est cofinancé par l'Union Européenne avec le fond Européen de Développement (FEDER) région Haut-de-France et AgriLab UniLaSalle , dans le cadre de l'OpenLab.
-![Logo-UE-SD](http://agrilab.unilasalle.fr/wp-content/uploads/2019/11/Logo-UE-SD.jpg) ![FEDER-SD](http://agrilab.unilasalle.fr/wp-content/uploads/2019/11/FEDER-SD.png) ![agrilabLogo](http://fab.academany.org/2021/labs/agrilab/images/about/agrilabLogo.jpg)
-
 ---
 
 ## Navigation

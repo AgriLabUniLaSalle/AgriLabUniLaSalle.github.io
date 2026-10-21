@@ -5,10 +5,6 @@ description: "Initiation à la modélisation 3D paramétrique avec Autodesk Fusi
 permalink: /ateliers/fusion-niveau-1/
 ---
 
-<nav aria-label="Fil d’Ariane">
-  <a href="/">Accueil</a> · <a href="/ateliers/">Ateliers</a>
-</nav>
-
 # Fusion 360, niveau 1
 
 Cette page présente les bases de la modélisation paramétrique avec **Autodesk Fusion** : esquisses, contraintes, opérations 3D et exports.
@@ -17,11 +13,11 @@ Cette page présente les bases de la modélisation paramétrique avec **Autodesk
 
 ---
 
-[Initiation à la modélisation 3D avec le logiciel "Fusion"](/projets/projects/tutoriels/questions/70-autodesk-fusion) (Niveau 1)
 
-Inscription pour étudiants : https://www.autodesk.com/education/free-software/featured
 
-Inscription pour utilisation personnelle : https://www.autodesk.fr/products/fusion-360/overview?term=1-YEAR&tab=subscription#personal
+Inscription pour étudiants : [https://www.autodesk.com/education/free-software/featured]
+
+Inscription pour utilisation personnelle : [https://www.autodesk.fr/products/fusion-360/overview?term=1-YEAR&tab=subscription#personal]
 
 ## Déroulé de l'atelier
 
@@ -38,7 +34,7 @@ Logiciel paramétrique
 > * Extrusion
 > * Forme primitive
 > * Révolution
-> *(sweep/loft)
+> * (sweep/loft)
 - Opération modify (chamfer/fillet/...)
 - Autres opérations
 - historique
@@ -61,10 +57,6 @@ https://academy.titansofcnc.com/
 
 https://courses.pocketnc.com/courses/Education-Course
 
-### Remerciements:
-
-Ce projet est cofinancé par l'Union Européenne avec le fond Européen de Développement (FEDER) région Haut-de-France et AgriLab UniLaSalle , dans le cadre de l'OpenLab.
-![Logo-UE-SD](http://agrilab.unilasalle.fr/wp-content/uploads/2019/11/Logo-UE-SD.jpg) ![FEDER-SD](http://agrilab.unilasalle.fr/wp-content/uploads/2019/11/FEDER-SD.png) ![agrilabLogo](http://fab.academany.org/2021/labs/agrilab/images/about/agrilabLogo.jpg)
 
 ---
 
