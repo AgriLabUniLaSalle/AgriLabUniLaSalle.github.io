@@ -9,13 +9,13 @@ permalink: /ateliers/fusion-niveau-2/
 
 Ce second niveau est consacré au module **Manufacture** de Fusion et à la préparation de fichiers G-code pour l’usinage CNC.
 
-> ⚠️ **Prérequis obligatoire :** avoir suivi [Fusion 360, niveau 1](/ateliers/fusion-niveau-1/).
+> **Prérequis obligatoire :** avoir suivi [Fusion 360, niveau 1](/ateliers/fusion-niveau-1/).
 
 ---
 
 [Atelier Modélisation 3D Niveau 2 , "Fusion"](/projets/questions/70-autodesk-fusion) – usinage CNC
 
-> ⚠️ Toute personne n’ayant pas suivi l’atelier Fusion niveau 1 ne sera pas acceptée.
+> Toute personne n’ayant pas suivi l’atelier Fusion niveau 1 ne sera pas acceptée.
 
 Module usinage de Fusion.
 
@@ -29,13 +29,13 @@ Cet atelier permet de générer le fichier GCODE nécessaire au fonctionnement d
 
 Quelques tutoriels pour en apprendre plus:
 
-https://www.instructables.com/classes/tagged/cnc/
+[Projets CNC sur Instructables](https://www.instructables.com/classes/tagged/cnc/)
 
-https://academy.titansofcnc.com/
+[Titans of CNC](https://academy.titansofcnc.com/)
 
-https://courses.pocketnc.com/courses/Education-Course
+[Cours PocketNC](https://courses.pocketnc.com/courses/Education-Course)
 
-Plugin DogBone pour Fusion : https://github.com/DVE2000/Dogbone
+[Plugin DogBone pour Fusion :](https://github.com/DVE2000/Dogbone)
 
 ![fusion25 dogbone s](https://fabacademy.org/2019/labs/sorbonne/students/hanneuse-luc/images/week08/fusion25_dogbone_s.jpg)
 
@@ -61,8 +61,8 @@ Quelques exemples réalisés pour montrer les principes essentiels :
 
 ![stool 2022-Dec-05 03-47-10PM-000 CustomizedView13427534726](/ateliers/assets/images/stool_2022-Dec-05_03-47-10PM-000_CustomizedView13427534726.png)
 
-Pour télécharger le fichier du tabouret : https://a360.co/3umA1rj
-Le fichier d'usinage : https://a360.co/3wdYO1t
+[Pour télécharger le fichier du tabouret :](https://a360.co/3umA1rj) 
+[Le fichier d'usinage :](https://a360.co/3wdYO1t)
 
 ## Mobile book case
 
